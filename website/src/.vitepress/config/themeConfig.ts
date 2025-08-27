@@ -60,8 +60,8 @@ const themeConfig: DefaultTheme.Config = {
   search: {
     provider: 'algolia',
     options: {
-      appId: 'IXX45N1P5C',
-      apiKey: 'a7a819b0bd88bc7333c7f42d611ec04e',
+      appId: 'XQZMAE09U8',
+      apiKey: '2cef38c0bbfea7164213239191be5310',
       indexName: 'KeyTik',
     },
   },
