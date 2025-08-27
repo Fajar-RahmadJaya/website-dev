@@ -29,8 +29,8 @@ export default {
     app.component('IconDownload', IconDownload)
     app.component('IconNewspaperVariant', IconNewspaperVariant)
     app.component('IconBugReport', IconBugReport)
-    tagManager({ id: 'GTM-KLZ8GRRZ' })
-    tagManagerFallBack({ id: 'GTM-KLZ8GRRZ' })
+    tagManager({ id: 'GTM-NM64V2DN' })
+    tagManagerFallBack({ id: 'GTM-NM64V2DN' })
     app.component('Adsense', Adsense)
   },
   Layout,
