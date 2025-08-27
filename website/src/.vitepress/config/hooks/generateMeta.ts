@@ -81,11 +81,6 @@ function generateMeta(context: TransformContext, hostname: string) {
   if (pageData.lastUpdated && pageData.frontmatter.lastUpdated !== false)
     addPropertyTag('article:modified_time', new Date(pageData.lastUpdated).toISOString())
 
-  if (pageData.filePath === 'news/index.md') {
-    addLinkTag('alternate', `${hostname}/feed.rss`, 'application/rss+xml', 'RSS feed for the news archive')
-    addLinkTag('alternate', `${hostname}/news.json`, 'application/json', 'JSON of the news archive')
-  }
-
   return head
 }
 

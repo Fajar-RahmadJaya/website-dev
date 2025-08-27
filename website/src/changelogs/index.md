@@ -1,6 +1,6 @@
 ---
 title: Changelogs
-description: Changelogs of all Mihon stable releases.
+description: Changelogs of all KeyTik stable releases.
 lastUpdated: false
 editLink: false
 prev: false
@@ -13,6 +13,6 @@ import ChangelogsList from "@theme/components/ChangelogsList.vue";
 
 # Changelogs
 
-Changelogs of all Mihon stable releases, which are also available [on GitHub](https://github.com/mihonapp/mihon/releases). Beta releases can be seen [on GitHub](https://github.com/mihonapp/mihon-preview/releases).
+Changelogs of all KeyTik stable releases, which are also available [on GitHub](https://github.com/Fajar-RahmadJaya/KeyTik/releases).
 
 <ChangelogsList />

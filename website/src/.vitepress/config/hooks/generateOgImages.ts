@@ -66,8 +66,6 @@ function getDir(url: string) {
     return 'FAQ'
   else if (url.startsWith('/docs/guides/'))
     return 'Guide'
-  else if (url.startsWith('/news/') && url !== '/news/')
-    return 'News'
 
   return undefined
 }

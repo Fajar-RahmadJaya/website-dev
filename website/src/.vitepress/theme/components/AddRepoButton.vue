@@ -5,7 +5,6 @@ import { onMounted, ref } from 'vue'
 
 function handleAnalytics() {
   window.gtag?.('event', 'Add', {
-    event_category: 'Extension',
     event_label: 'Repository',
   })
 }
@@ -35,33 +34,9 @@ onMounted(() => {
         <p class="custom-block-title">
           Unsupported operating system
         </p>
-        <p>
-          <strong>Mihon</strong> is an <strong>Android app</strong> only.
+        <p>z
+          <strong>KeyTik</strong> is an <strong>Android app</strong> only.
           Use an <strong>Android device</strong> to download and install the app.
-        </p>
-      </div>
-    </div>
-    <div v-if="isAndroid">
-      <div class="action-buttons">
-        <a
-          class="action-button primary"
-          href="tachiyomi://add-repo?url=https://raw.githubusercontent.com/mihonapp/extensions/repo/index.min.json"
-          @click="handleAnalytics()"
-        >
-          <IconDownload />
-          <span class="text">Add repository</span>
-          <span class="version">Official</span>
-        </a>
-      </div>
-      <span class="version-disclaimer">
-        Requires <strong>Mihon 0.15.2</strong> or higher.
-      </span>
-      <div class="custom-block danger">
-        <p class="custom-block-title">
-          Caution
-        </p>
-        <p>
-          Beware that any third-party repository or extension can contain malware.
         </p>
       </div>
     </div>

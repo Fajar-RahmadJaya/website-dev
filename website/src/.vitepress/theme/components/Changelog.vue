@@ -2,7 +2,6 @@
 import { computed, toRefs } from 'vue'
 import MarkdownIt from 'markdown-it'
 import { type AppRelease, data as release } from '../data/release.data'
-import Contributors from './Contributors.vue'
 
 const props = defineProps<{ type: keyof AppRelease }>()
 const { type } = toRefs(props)
@@ -10,9 +9,19 @@ const { type } = toRefs(props)
 const md = new MarkdownIt()
 
 const changelog = computed(() => {
-  const flavoredString = (release[type.value].body ?? '')
+  const body = release[type.value].body ?? ''
+  const changelogMatch = body.match(/## Changelog[\s\S]*?(?:\n\n|$)/)
+  let changelogSection = changelogMatch
+    ? changelogMatch[0].replace(/> \[!IMPORTANT][\s\S]*$/m, '').trim()
+    : 'No changelog provided.'
+
+  changelogSection = changelogSection
+    .replace(/## Next Update Plan[\s\S]*/m, '')
+    .replace(/^## Changelog/, '')
+
+  const flavoredString = changelogSection
     .replace(/(?<=\(|(, ))@(.*?)(?=\)|(, ))/g, '[@$2](https://github.com/$2)')
-    .replace('https://github.com/mihonapp/mihon/releases', '/changelogs/')
+    .replace('https://github.com/Fajar-RahmadJaya/KeyTik/releases', '/changelogs/')
 
   return md.render(flavoredString)
 })
@@ -25,16 +34,11 @@ const changelog = computed(() => {
       <h2>Changelog</h2>
     </header>
     <div v-html="changelog" />
-    <Contributors
-      :body="release[type].body!"
-      :author="release[type].author.login"
-      :tag="release[type].tag_name"
-    />
   </div>
   <div class="fullChangelog">
     <p>
       View the full release
-      <a href="https://github.com/mihonapp/mihon/releases/latest" target="_blank" rel="noopener">
+      <a href="https://github.com/Fajar-RahmadJaya/KeyTik/releases/latest" target="_blank" rel="noopener">
         here
       </a>
     </p>

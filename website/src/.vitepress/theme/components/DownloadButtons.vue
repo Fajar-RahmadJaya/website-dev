@@ -5,83 +5,53 @@ import { computed, onMounted, ref } from 'vue'
 import { data as release } from '../data/release.data'
 
 const downloadInformation = computed(() => ({
-  beta: {
-    tagName: release.beta.tag_name ?? 'r0000',
-    asset: (release.beta.assets ?? [])
-      .find(a => /^mihon-r\d{4,}.apk/.test(a.name)),
-  },
   stable: {
     tagName: release.stable.tag_name ?? 'v0.00.0',
     asset: (release.stable.assets ?? [])
-      .find(a => /^mihon-v\d+\.\d+\.\d+.apk/.test(a.name)),
+      .find(a => /^KeyTik.v\d+\.\d+\.\d+.Installer.exe/.test(a.name)),
   },
 }))
 
-const isAndroid = ref(true)
+const isWindows = ref(true)
 
 onMounted(() => {
-  isAndroid.value = !!navigator.userAgent.match(/android/i)
+  isWindows.value = !!navigator.userAgent.match(/windows/i)
 })
 
-function handleAnalytics(type: 'beta' | 'stable') {
+function handleAnalytics() {
   window.gtag?.('event', 'Download', {
     event_category: 'App',
-    event_label: type === 'stable' ? 'Stable' : 'Beta',
-    version: type === 'stable'
-      ? release.stable.tag_name
-      : release.beta.tag_name,
+    event_label: 'Stable',
+    version: release.stable.tag_name,
   })
 }
 </script>
 
 <template>
   <div>
-    <div v-if="!isAndroid" class="custom-block danger">
+    <div v-if="!isWindows" class="custom-block danger">
       <p class="custom-block-title">
         Unsupported operating system
       </p>
       <p>
-        <strong>Mihon</strong> is an <strong>Android app</strong> only.
-        Use an <strong>Android device</strong> to download and install the app.
+        <strong>KeyTik</strong> is <strong>Windows</strong> only.
+        Use <strong>Windows operating system</strong> to download and install the app.
       </p>
-    </div>
-    <div v-if="!isAndroid" class="custom-block warning">
-      <p class="custom-block-title">
-        Caution
-      </p>
-      <p>
-        Any app for any operating systems other than Android called
-        <strong>Mihon</strong> is not affiliated with this project.
-      </p>
-      <blockquote>
-        For more information, read the
-        <a href="/docs/faq/general">General FAQ</a>.
-      </blockquote>
     </div>
     <div class="download-buttons">
       <a
         class="download-button primary"
         :download="downloadInformation.stable.asset?.name"
         :href="downloadInformation.stable.asset?.browser_download_url"
-        @click="handleAnalytics('stable')"
+        @click="handleAnalytics"
       >
         <IconDownload />
-        <span class="text">Mihon</span>
+        <span class="text">KeyTik</span>
         <span class="version">{{ downloadInformation.stable.tagName }}</span>
-      </a>
-      <a
-        class="download-button secondary"
-        :download="downloadInformation.beta.asset?.name"
-        :href="downloadInformation.beta.asset?.browser_download_url"
-        @click="handleAnalytics('beta')"
-      >
-        <IconBugReport />
-        <span class="text">Mihon Beta</span>
-        <span class="version">{{ downloadInformation.beta.tagName }}</span>
       </a>
     </div>
     <span class="version-disclaimer">
-      Requires <strong>Android 8.0</strong> or higher.
+      Requires <strong>Windows 7</strong> or higher.
     </span>
   </div>
 </template>

@@ -15,14 +15,11 @@ import headConfig from './config/headConfig'
 
 import generateMeta from './config/hooks/generateMeta'
 
-// Enhanced meta generation
-import generateFeed from './config/hooks/generateFeed'
-
 // Allows generation of RSS feed
 import generateOgImages from './config/hooks/generateOgImages'
 
-const title = 'Mihon'
-const description = 'Discover and read manga, webtoons, comics, and more – easier than ever on your Android device.'
+const title = 'KeyTik'
+const description = 'Multi-Profile Key Remap, Clicker, Macro, and More.'
 
 const env = loadEnv('', process.cwd())
 const hostname: string = env.VITE_HOSTNAME || 'http://localhost:4173'
@@ -41,7 +38,6 @@ export default defineConfig({
   themeConfig,
   transformHead: async context => generateMeta(context, hostname),
   buildEnd: async (context) => {
-    generateFeed(context, hostname)
     generateOgImages(context)
   },
   vite: {

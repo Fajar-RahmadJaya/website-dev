@@ -16,14 +16,13 @@ const nav: DefaultTheme.NavItem[] = [
     ],
   },
   {
-    text: 'Docs',
-    link: '/docs/guides/getting-started',
-    activeMatch: '/docs/',
+    text: 'KeyTik Pro',
+    link: '/pro-version/',
   },
   {
-    text: 'News',
-    link: '/news/',
-    activeMatch: '/news/',
+    text: 'Docs',
+    link: '/docs/introduction/overview',
+    activeMatch: '/docs/',
   },
 ]
 

@@ -1,17 +1,17 @@
 {
-  "name": "mihon-website",
+  "name": "KeyTik-website",
   "type": "module",
   "version": "3.0.0",
   "private": true,
   "packageManager": "pnpm@10.2.1",
-  "description": "Official website for the Mihon app.",
+  "description": "Official website for the KeyTik app.",
   "license": "MPL-2.0",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mihonapp/website.git"
+    "url": "git+https://github.com/Fajar-RahmadJaya/KeyTik.git"
   },
   "bugs": {
-    "url": "https://github.com/mihonapp/website/issues"
+    "url": "https://github.com/Fajar-RahmadJaya/KeyTik/issues"
   },
   "engines": {
     "node": ">=22",
@@ -85,5 +85,11 @@
   "lint-staged": {
     "*.{styl,vue}": "stylelint --fix",
     "*.{html,json}": "prettier --write"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild",
+      "vue-demi"
+    ]
   }
 }

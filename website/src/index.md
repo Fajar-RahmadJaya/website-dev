@@ -3,35 +3,35 @@ title: Home
 layout: home
 
 hero:
-  name: Mihon
-  text: Full-featured reader
-  tagline: Discover and read manga, webtoons, comics, and more – easier than ever on your Android device.
+  name: KeyTik
+  text: Powerful All-in-One Automation Tool
+  tagline: Multi-Profile Key Remap, Clicker, Macro, and More.
   image:
     alt: Mihon Library Tab Dark
-    light: /home/phone.light.webp
-    dark: /home/phone.dark.webp
+    light: /home/sun2.webp
+    dark: /home/moon.webp
   actions:
     - theme: brand
-      text: Get started
-      link: /docs/guides/getting-started
+      text: Introduction
+      link: /docs/introduction/overview
     - theme: alt
       text: Download
       link: /download/
 
-customMetaTitle: Mihon
+customMetaTitle: KeyTik
 
 features:
-  - title: Tracking
-    details: Automatically keep track of your series with MyAnimeList, AniList, Kitsu, and more.
-    icon: <svg height="24" width="24" viewBox="0 -960 960 960" fill="var(--vp-c-green-2)" xmlns="http://www.w3.org/2000/svg"><path d="M160-160v-80h110l-16-14q-52-46-73-105t-21-119q0-111 66.5-197.5T400-790v84q-72 26-116 88.5T240-478q0 45 17 87.5t53 78.5l10 10v-98h80v240H160Zm400-10v-84q72-26 116-88.5T720-482q0-45-17-87.5T650-648l-10-10v98h-80v-240h240v80H690l16 14q49 49 71.5 106.5T800-482q0 111-66.5 197.5T560-170Z"/></svg>
-    link: /docs/guides/tracking
-    linkText: Setup tracking
-  - title: Customization
-    details: Make it yours with multiple reading modes, custom color filters, and many other settings.
-    icon: <svg height="24" width="24" viewBox="0 -960 960 960" fill="var(--vp-c-indigo-2)" xmlns="http://www.w3.org/2000/svg"><path d="M440-120v-240h80v80h320v80H520v80h-80Zm-320-80v-80h240v80H120Zm160-160v-80H120v-80h160v-80h80v240h-80Zm160-80v-80h400v80H440Zm160-160v-240h80v80h160v80H680v80h-80Zm-480-80v-80h400v80H120Z"/></svg>
-    link: /docs/guides/getting-started
+  - title: Bind to Devices and Programs
+    details: Make automation work only on specific devices and programs.
+    icon: <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="var(--vp-c-green-2)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.213 9.787a3.391 3.391 0 0 0-4.795 0l-3.425 3.426a3.39 3.39 0 0 0 4.795 4.794l.321-.304m-.321-4.49a3.39 3.39 0 0 0 4.795 0l3.424-3.426a3.39 3.39 0 0 0-4.794-4.795l-1.028.961"/></svg>
+    link: /docs/introduction/use-case
+    linkText: Use case example
+  - title: Create Your Own Shortcuts
+    details: Create or adjust your own shortcuts to do various automation.
+    icon: <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="var(--vp-c-indigo-2)" viewBox="0 0 24 24"><path d="M5.027 10.9a8.729 8.729 0 0 1 6.422-3.62v-1.2A2.061 2.061 0 0 1 12.61 4.2a1.986 1.986 0 0 1 2.104.23l5.491 4.308a2.11 2.11 0 0 1 .588 2.566 2.109 2.109 0 0 1-.588.734l-5.489 4.308a1.983 1.983 0 0 1-2.104.228 2.065 2.065 0 0 1-1.16-1.876v-.942c-5.33 1.284-6.212 5.251-6.25 5.441a1 1 0 0 1-.923.806h-.06a1.003 1.003 0 0 1-.955-.7A10.221 10.221 0 0 1 5.027 10.9Z"/></svg>
+    link: /docs/getting-started/automation-tool
     linkText: Get started
-  - title: Extensions
-    details: Bring your own content from a variety of sources.
-    icon: <svg height="24" width="24" viewBox="0 -960 960 960" fill="var(--vp-c-yellow-2)" xmlns="http://www.w3.org/2000/svg"><path d="M352-120H200q-33 0-56.5-23.5T120-200v-152q48 0 84-30.5t36-77.5q0-47-36-77.5T120-568v-152q0-33 23.5-56.5T200-800h160q0-42 29-71t71-29q42 0 71 29t29 71h160q33 0 56.5 23.5T800-720v160q42 0 71 29t29 71q0 42-29 71t-71 29v160q0 33-23.5 56.5T720-120H568q0-50-31.5-85T460-240q-45 0-76.5 35T352-120Zm-152-80h85q24-66 77-93t98-27q45 0 98 27t77 93h85v-240h80q8 0 14-6t6-14q0-8-6-14t-14-6h-80v-240H480v-80q0-8-6-14t-14-6q-8 0-14 6t-6 14v80H200v88q54 20 87 67t33 105q0 57-33 104t-87 68v88Zm310-310Z"/></svg>
+  - title: Multi Profile Automation
+    details: Each automation works independently on its own profile.
+    icon: <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="var(--vp-c-yellow-2)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 9h3m-3 3h3m-3 3h3m-6 1c-.306-.613-.933-1-1.618-1H7.618c-.685 0-1.312.387-1.618 1M4 5h16a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1Zm7 5a2 2 0 1 1-4 0 2 2 0 0 1 4 0Z"/></svg>
 ---

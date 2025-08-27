@@ -14,8 +14,13 @@ import { enhanceAppWithTabs } from 'vitepress-plugin-tabs/client'
 // Import icon components
 import { IconBugReport, IconDownload, IconNewspaperVariant } from '@iconify-prerendered/vue-mdi'
 
-import analytics from './plugin/analytics'
+import tagManager from './plugin/tagManager'
+import tagManagerFallBack from './plugin/tagManagerFallBack'
 import Layout from './Layout.vue'
+
+// Import adsense
+import Adsense from './components/adsense.vue'
+
 
 export default {
   extends: DefaultTheme,
@@ -25,7 +30,9 @@ export default {
     app.component('IconDownload', IconDownload)
     app.component('IconNewspaperVariant', IconNewspaperVariant)
     app.component('IconBugReport', IconBugReport)
-    analytics({ id: 'G-KN9GHR5EKT' })
+    tagManager({ id: 'GTM-KLZ8GRRZ' })
+    tagManagerFallBack({ id: 'GTM-KLZ8GRRZ' })
+    app.component('Adsense', Adsense)
   },
   Layout,
 }

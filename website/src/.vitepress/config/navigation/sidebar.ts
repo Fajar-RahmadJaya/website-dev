@@ -2,11 +2,9 @@ import type { DefaultTheme } from 'vitepress'
 
 const sidebar: DefaultTheme.SidebarMulti = {
   '/download/': defaultSidebar(),
-  '/extensions/': defaultSidebar(),
   '/docs/': defaultSidebar(),
-  '/forks/': defaultSidebar(),
   '/changelogs/': defaultSidebar(),
-  '/news/': defaultSidebar(),
+  '/pro-version/': defaultSidebar(),
   '/sandbox/': defaultSidebar(),
 }
 
@@ -23,108 +21,54 @@ function defaultSidebar(): DefaultTheme.SidebarItem[] {
           link: '/changelogs/',
         },
         {
-          text: 'Forks',
-          link: '/forks/',
-        },
-        {
-          text: 'Contribute',
-          link: '/docs/contribute',
+          text: 'Pro Version',
+          link: '/pro-version/',
         },
       ],
     },
     {
-      text: 'Frequently Asked Questions',
+      text: 'Introduction',
       items: [
-        { text: 'General', link: '/docs/faq/general' },
-        {
-          text: 'Library',
-          link: '/docs/faq/library',
+        { 
+          text: 'Overview', 
+          link: '/docs/introduction/overview' 
         },
         {
-          text: 'Updates',
-          collapsed: true,
-          items: [
-            { text: 'Smart updates', link: '/docs/faq/updates/smart' },
-            { text: 'Upcoming', link: '/docs/faq/updates/upcoming' },
-          ],
+          text: 'Safety',
+          link: '/docs/introduction/safety',
         },
         {
-          text: 'Browse',
-          link: '/docs/faq/browse/',
-          collapsed: true,
-          items: [
-            { text: 'Extensions', link: '/docs/faq/browse/extensions' },
-            {
-              text: 'Local source',
-              link: '/docs/faq/browse/local-source',
-            },
-          ],
+          text: 'Feature',
+          link: '/docs/introduction/features',
         },
         {
-          text: 'Downloads',
-          link: '/docs/faq/downloads',
-        },
-        {
-          text: 'Reader',
-          link: '/docs/faq/reader',
-        },
-        {
-          text: 'Settings',
-          link: '/docs/faq/settings',
-        },
-        {
-          text: 'Storage',
-          link: '/docs/faq/storage',
+          text: 'Use Case Example',
+          link: '/docs/introduction/use-case',
         },
       ],
     },
     {
-      text: 'Guides',
+      text: 'Getting Started',
       items: [
         {
-          text: 'Getting started',
-          link: '/docs/guides/getting-started',
+          text: 'Installation',
+          link: '/docs/getting-started/installation',
         },
         {
-          text: 'Troubleshooting',
-          link: '/docs/guides/troubleshooting/',
-          collapsed: true,
-          items: [
-            {
-              text: 'Common issues',
-              link: '/docs/guides/troubleshooting/common-issues',
-            },
-            {
-              text: 'Diagnosis',
-              link: '/docs/guides/troubleshooting/diagnosis',
-            },
-          ],
+          text: 'Supported Key List',
+          link: '/docs/getting-started/supported-key-list',
         },
         {
-          text: 'Source migration',
-          link: '/docs/guides/source-migration',
-        },
-        { text: 'Backups', link: '/docs/guides/backups' },
-        { text: 'Tracking', link: '/docs/guides/tracking' },
-        { text: 'Categories', link: '/docs/guides/categories' },
-        {
-          text: 'Local source',
-          link: '/docs/guides/local-source/',
-          collapsed: true,
-          items: [
-            {
-              text: 'Advanced editing',
-              link: '/docs/guides/local-source/advanced',
-            },
-          ],
+          text: 'Automation Tool',
+          link: '/docs/getting-started/automation-tool',
         },
         {
-          text: 'Reader settings',
-          link: '/docs/guides/reader-settings',
+          text: 'KeyTik Mechanism',
+          link: '/docs/getting-started/mechanism',
         },
         {
-          text: 'Shizuku',
-          link: '/docs/guides/shizuku',
+          text: 'Community',
+          link: '/docs/getting-started/community',
         },
       ],
     },

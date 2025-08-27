@@ -1,18 +1,25 @@
 <script setup lang="ts">
 import MarkdownIt from 'markdown-it'
 import { data as changelogs } from '../data/changelogs.data'
-import Contributors from './Contributors.vue'
 
 const md = new MarkdownIt()
 
 function renderMarkdown(string: string | null | undefined) {
   const body = string ?? 'No changelog provided.'
-  const flavoredString = body
-    .split(/---\r\n\r\n### Checksums|---\r\n\r\nMD5/)[0]
+  const changelogMatch = body.match(/## Changelog[\s\S]*?(?:\n\n|$)/)
+  let changelogSection = changelogMatch
+    ? changelogMatch[0].replace(/> \[!IMPORTANT][\s\S]*$/m, '').trim()
+    : 'No changelog provided.'
+
+  changelogSection = changelogSection
+    .replace(/## Next Update Plan[\s\S]*/m, '')
+    .replace(/^## Changelog/, '### Changelog')
+
+  const flavoredString = changelogSection
     .replace(/(?<=\(|(, ))@(.*?)(?=\)|(, ))/g, '[@$2](https://github.com/$2)')
-    .replace(/#(\d+)/g, '[#$1](https://github.com/mihonapp/mihon/issues/$1)')
+    .replace(/#(\d+)/g, '[#$1](https://github.com/Fajar-RahmadJaya/KeyTik/issues/$1)')
     .replace(/^Check out the .*past release notes.* if you're.*$/m, '')
-    .replace(/https:\/\/github.com\/mihonapp\/mihon\/releases\/tag\/(.*)/g, '#$1')
+    .replace(/https:\/\/github.com\/Fajar-RahmadJaya\/KeyTik\/releases\/tag\/(.*)/g, '#$1')
     .trim()
 
   return md.render(flavoredString)
@@ -46,11 +53,6 @@ const dateFormatter = new Intl.DateTimeFormat('en', {
       {{ dateFormatter.format(new Date(release.published_at!)) }}
     </time>
     <div v-html="renderMarkdown(release.body)" />
-    <Contributors
-      :body="release.body!"
-      :author="release.author.login"
-      :tag="release.tag_name"
-    />
   </div>
 </template>
 

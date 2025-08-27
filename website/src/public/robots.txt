@@ -1,0 +1,8 @@
+User-agent: Mediapartners-Google
+Disallow:
+
+User-agent: *
+Disallow: /private/
+Disallow: /temp/
+
+Sitemap: https://keytik.com/sitemap.xml
