@@ -18,9 +18,9 @@ Example 1 (Without Shortcut):
 </p>
 
 Then the created script result would look like this:
-```js
+```txt
 ; default
-^!p::ExitApp 
+^!p::ExitApp
 
 w::Up
 a::Left
@@ -34,9 +34,9 @@ Example 2 (With Shortcut):
 </p>
 
 Then the created script result would look like this:
-```js
+```txt
 ; default
-^!p::ExitApp 
+^!p::ExitApp
 
 toggle := false
 
@@ -56,11 +56,11 @@ s::Down
 <Adsense />
 
 ## Assign Profile on Specific Device
-This feature work similar to [Remapper And Automation Tool] section with taking input from user then create AutoHotkey script from it. The difference is, KeyTik use help from AutoHotkey wrapper named [AutoHotkey Interception by evilC](https://github.com/evilC/AutoHotInterception) to be able to assign script or profile on specific device. AutoHotkey Interception work using [Interception driver by oblitum](https://github.com/oblitum/Interception) so to be able to make it work you need to install Interception driver first. For how to do it, visit [AutoHotkey Interception, Install the Interception driver](https://github.com/evilC/AutoHotInterception?tab=readme-ov-file#install-the-intereception-driver). 
+This feature work similar to [Remapper And Automation Tool] section with taking input from user then create AutoHotkey script from it. The difference is, KeyTik use help from AutoHotkey wrapper named [AutoHotkey Interception by evilC](https://github.com/evilC/AutoHotInterception) to be able to assign script or profile on specific device. AutoHotkey Interception work using [Interception driver by oblitum](https://github.com/oblitum/Interception) so to be able to make it work you need to install Interception driver first. For how to do it, visit [AutoHotkey Interception, Install the Interception driver](https://github.com/evilC/AutoHotInterception?tab=readme-ov-file#install-the-intereception-driver).
 
-To use this feature, you just need to select your device then click on "Select" Button, it will automatically take the device type, VID and PID/Handle then pass it to "Device ID" entry. After that, you can freely add your script or keyboard remap and finish it, then it's done. After setting up your device id and remap or script, you have a profile that work on specific device. If you are unsure which one is your device ID, you can use AutoHotkey Interception built in monitor with clicking "Open AHI Monitor To Test Device" button and it will automatically open monitor.ahk. 
+To use this feature, you just need to select your device then click on "Select" Button, it will automatically take the device type, VID and PID/Handle then pass it to "Device ID" entry. After that, you can freely add your script or keyboard remap and finish it, then it's done. After setting up your device id and remap or script, you have a profile that work on specific device. If you are unsure which one is your device ID, you can use AutoHotkey Interception built in monitor with clicking "Open AHI Monitor To Test Device" button and it will automatically open monitor.ahk.
 
-For more simple explanation, to assign your remap or script to specific device, you just need to select your device in the "Select Device" button. 
+For more simple explanation, to assign your remap or script to specific device, you just need to select your device in the "Select Device" button.
 
 Here is the example, suppose your input is like this:
 <p align="center">
@@ -68,9 +68,9 @@ Here is the example, suppose your input is like this:
 </p>
 
 Then the created script result would look like this:
-```js
+```txt
 ; default
-^!p::ExitApp 
+^!p::ExitApp
 
 #SingleInstance force
 Persistent

@@ -2,7 +2,7 @@
 title: Community
 titleTemplate: Getting Started
 description: Join KeyTik community.
---- 
+---
 
 # Community
 Join KeyTik community.

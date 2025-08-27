@@ -1,13 +1,3 @@
-// filepath: d:\Project\website-dev\website\src\.vitepress\theme\components\adsense.vue
-<template>
-  <ins class="adsbygoogle"
-       style="display:block; text-align:center;"
-       data-ad-layout="in-article"
-       data-ad-format="fluid"
-       data-ad-client="ca-pub-6996805384183695"
-       data-ad-slot="9768744078"></ins>
-</template>
-
 <script setup>
 import { onMounted } from 'vue'
 
@@ -24,3 +14,14 @@ onMounted(() => {
   window.adsbygoogle.push({})
 })
 </script>
+
+<template>
+  <ins
+    class="adsbygoogle"
+    style="display:block; text-align:center;"
+    data-ad-layout="in-article"
+    data-ad-format="fluid"
+    data-ad-client="ca-pub-6996805384183695"
+    data-ad-slot="9768744078"
+  />
+</template>

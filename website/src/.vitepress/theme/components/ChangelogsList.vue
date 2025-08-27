@@ -8,11 +8,11 @@ function renderMarkdown(string: string | null | undefined) {
   const body = string ?? 'No changelog provided.'
   const changelogMatch = body.match(/## Changelog[\s\S]*?(?:\n\n|$)/)
   let changelogSection = changelogMatch
-    ? changelogMatch[0].replace(/> \[!IMPORTANT][\s\S]*$/m, '').trim()
+    ? changelogMatch[0].replace(/> \[!IMPORTANT\][\s\S]*$/m, '').trim()
     : 'No changelog provided.'
 
   changelogSection = changelogSection
-    .replace(/## Next Update Plan[\s\S]*/m, '')
+    .replace(/## Next Update Plan[\s\S]*/, '')
     .replace(/^## Changelog/, '### Changelog')
 
   const flavoredString = changelogSection

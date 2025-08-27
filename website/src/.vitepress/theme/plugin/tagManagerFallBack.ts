@@ -2,7 +2,8 @@ export default function ({ id }: { id: string }) {
   if (typeof window === 'undefined' || window.location.hostname === 'localhost')
     return
 
-  if (document.getElementById('gtm-noscript')) return
+  if (document.getElementById('gtm-noscript'))
+    return
 
   const noscript = document.createElement('noscript')
   noscript.id = 'gtm-noscript'

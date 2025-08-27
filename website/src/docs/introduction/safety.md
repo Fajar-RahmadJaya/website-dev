@@ -46,13 +46,13 @@ You can try this by downloading the source code version and checking the code yo
 
 ## Scan Results
 Here's the VirusTotal scan for KeyTik v1.5.0 (source code version):
-* **Report Screenshot**:
+- **Report Screenshot**:
 
 <div align="center">
 <img src="/docs/introduction/safety/Virus Total Report v1.5.0.png" alt="Virus Total Report" width="700" />
 </div>
 
-* **Full scan report**:  
+- **Full scan report**:
   - [View full scan report on VirusTotal](https://www.virustotal.com/gui/file/0a94bae55421cab450d8b6510ad4ae95ce1826233108c910d0362ea06aec7a1e)
 
 ---

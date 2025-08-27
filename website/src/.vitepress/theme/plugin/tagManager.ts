@@ -2,7 +2,8 @@ export default function ({ id }: { id: string }) {
   if (typeof window === 'undefined' || window.location.hostname === 'localhost')
     return
 
-  if (document.getElementById('gtm-js')) return
+  if (document.getElementById('gtm-js'))
+    return
 
   const script = document.createElement('script')
   script.id = 'gtm-js'

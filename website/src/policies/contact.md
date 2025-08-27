@@ -8,9 +8,8 @@ description: Contact us.
 
 If you have any suggestions, questions, or feedback, you can contact me through the following platforms:
 
-Email: fajar.rahmad.jaya.profile@gmail.com
+Email: [fajar.rahmad.jaya.profile@gmail.com](mailto:fajar.rahmad.jaya.profile@gmail.com)
 
-Instagram: https://www.instagram.com/fajar_rahmadjaya/
+Instagram: [https://www.instagram.com/fajar_rahmadjaya](https://www.instagram.com/fajar_rahmadjaya)
 
-X: https://x.com/Fajar_RahmadJ
-
+X: [https://x.com/Fajar_RahmadJ](https://x.com/Fajar_RahmadJ)

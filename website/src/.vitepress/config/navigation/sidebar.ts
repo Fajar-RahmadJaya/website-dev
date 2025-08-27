@@ -29,9 +29,9 @@ function defaultSidebar(): DefaultTheme.SidebarItem[] {
     {
       text: 'Introduction',
       items: [
-        { 
-          text: 'Overview', 
-          link: '/docs/introduction/overview' 
+        {
+          text: 'Overview',
+          link: '/docs/introduction/overview',
         },
         {
           text: 'Safety',

@@ -18,9 +18,9 @@ The content of the `key_list.txt` file reflects the exact keys supported by KeyT
 
 <Adsense />
 
-### Key List
+## Key List
 Here is the `key_list.txt` content:
-```js
+```txt
 alt, !
 right alt, RAlt
 left alt, LAlt
@@ -180,8 +180,8 @@ _, _
 <, <
 >, >
 ?, ?
-AppsKey, AppsKey 
-PrintScreen, PrintScreen 
+AppsKey, AppsKey
+PrintScreen, PrintScreen
 ```
 
 <Adsense />

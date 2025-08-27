@@ -21,7 +21,6 @@ import Layout from './Layout.vue'
 // Import adsense
 import Adsense from './components/adsense.vue'
 
-
 export default {
   extends: DefaultTheme,
   enhanceApp({ app }) {

@@ -3,12 +3,6 @@
 
 import { onMounted, ref } from 'vue'
 
-function handleAnalytics() {
-  window.gtag?.('event', 'Add', {
-    event_label: 'Repository',
-  })
-}
-
 const isAndroid = ref(true)
 
 onMounted(() => {
@@ -34,7 +28,7 @@ onMounted(() => {
         <p class="custom-block-title">
           Unsupported operating system
         </p>
-        <p>z
+        <p>
           <strong>KeyTik</strong> is an <strong>Android app</strong> only.
           Use an <strong>Android device</strong> to download and install the app.
         </p>

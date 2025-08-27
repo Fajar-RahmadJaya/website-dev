@@ -16,17 +16,6 @@ function generateMeta(context: TransformContext, hostname: string) {
       head.push(['meta', { property, content: String(content) }])
   }
 
-  const addLinkTag = (rel: string, href: string, type?: string, title?: string) => {
-    if (href) {
-      const attributes: { rel: string, href: string, type?: string, title?: string } = { rel, href }
-      if (type)
-        attributes.type = type
-      if (title)
-        attributes.title = title
-      head.push(['link', attributes])
-    }
-  }
-
   head.push(['link', { rel: 'canonical', href: url }])
   addPropertyTag('og:url', url)
   addMetaTag('twitter:url', url)
