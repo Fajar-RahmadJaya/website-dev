@@ -62,7 +62,7 @@ const themeConfig: DefaultTheme.Config = {
     options: {
       appId: 'XQZMAE09U8',
       apiKey: '2cef38c0bbfea7164213239191be5310',
-      indexName: 'keytik_com_xqzmae09u8_pages',
+      indexName: 'KeyTik Website',
     },
   },
 }
