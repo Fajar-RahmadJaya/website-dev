@@ -2,7 +2,7 @@
 /// <reference types="@types/gtag.js" />
 
 function handleAnalytics() {
-  window.gtag?.('event', 'Gumroad Visit', {
+  window.gtag?.('event', 'Gumroad_Visit', {
     event_category: 'Click',
   })
 }
