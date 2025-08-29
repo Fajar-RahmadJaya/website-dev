@@ -10,9 +10,9 @@ function handleAnalytics() {
 
 <template>
   <div>
-    <div class="download-buttons">
+    <div class="pay-buttons">
       <a
-        class="download-button primary"
+        class="pay-button primary"
         href="https://gumroad.com/checkout?product=ayrjjt&quantity=1&code=KeyTikPro25"
         @click="handleAnalytics"
       >
@@ -27,7 +27,7 @@ function handleAnalytics() {
 </template>
 
 <style lang="stylus">
-.download-buttons {
+.pay-buttons {
   display: flex
   gap: 0.75em
   justify-content: center
@@ -35,7 +35,7 @@ function handleAnalytics() {
   margin: 0.75em auto
 }
 
-.download-button {
+.pay-button {
   display: inline-block
   border: 1px solid transparent
   text-align: center
