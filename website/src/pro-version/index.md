@@ -7,14 +7,20 @@ prev: false
 next: false
 ---
 
+<script setup>
+import PayButtons from "@theme/components/PayButtons.vue";
+import ProChangelog from "@theme/components/ProChangelog.vue";
+</script>
+
 # KeyTik Pro
 
-KeyTik Pro is a pro version of [KeyTik: The All-in-One Automation Tool](https://github.com/Fajar-RahmadJaya/KeyTik). KeyTik Pro is still in development progress. It will be updated from time to time. You will be notified via email or directly via Gumroad when an update is available. You don't need to pay again if an update is available.
+KeyTik Pro is available at Gumroad at **$20 for lifetime purchase**.
 
-**Take 25% Off for 10 people only. Check out [here](https://fajarrahmadjaya.gumroad.com/l/keytik-pro/KeyTikPro25) to get the discount**. (9 Person Left)
+Pro version has additional features compared to the normal version while not overwhelming it. Think of Pro version as a way to support the developer or as a more user-friendly version of the normal version.
 
-## V4.2.0 Update
-**Changelog**:
+<PayButtons />
+<ProChangelog version= "v4.2.0">
+
 - Add Multi Copy.
 - Improve Select Button Functionality.
 - Add Check Installation on Setting.
@@ -25,6 +31,13 @@ KeyTik Pro is a pro version of [KeyTik: The All-in-One Automation Tool](https://
 - Fix Incorrect Shortcuts Placement.
 - Fix Some Automation Tool Can't be Saved.
 - Minor Bug Fix.
+
+</ProChangelog>
+
+## Pro Version Preview
+<p align="center">
+  <img src="/pro-version/slideshow.gif" alt="Pro Version Slideshow" width="500" />
+</p>
 
 ## My Plan for the Pro Version
 - Additional UI for file openers. (Completed)
@@ -94,8 +107,3 @@ This is a feature that all profile has. Profile is what setting you create wheth
 - Store profiles: Move profiles to storage UI and remove them from the main UI.
 - Import profiles: Find AutoHotkey script online and import it to software.
 - Always on top: Make software always on top.
-
-## Pro Version Preview
-<p align="center">
-  <img src="/pro-version/slideshow.gif" alt="Pro Version Slideshow" width="500" />
-</p>
