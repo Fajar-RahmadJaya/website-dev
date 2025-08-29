@@ -7,7 +7,7 @@ hero:
   text: Powerful All-in-One Automation Tool
   tagline: Multi-Profile Key Remap, Clicker, Macro, and More.
   image:
-    alt: Mihon Library Tab Dark
+    alt: Sun and Moon Icon
     light: /home/sun2.webp
     dark: /home/moon.webp
   actions:
