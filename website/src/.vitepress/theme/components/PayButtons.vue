@@ -3,7 +3,7 @@
 
 function handleAnalytics() {
   window.gtag?.('event', 'pay_click', {
-    event_category: 'Pay',
+    event_category: 'App',
   })
 }
 </script>
