@@ -19,7 +19,7 @@ onMounted(() => {
 })
 
 function handleAnalytics() {
-  window.gtag?.('event', 'Download', {
+  window.gtag?.('event', 'download', {
     event_category: 'App',
     event_label: 'Stable',
     version: release.stable.tag_name,
