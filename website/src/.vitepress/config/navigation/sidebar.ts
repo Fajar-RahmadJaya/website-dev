@@ -31,19 +31,19 @@ function defaultSidebar(): DefaultTheme.SidebarItem[] {
       items: [
         {
           text: 'Overview',
-          link: '/docs/introduction/overview',
+          link: '/docs/introduction/overview/',
         },
         {
           text: 'Safety',
-          link: '/docs/introduction/safety',
+          link: '/docs/introduction/safety/',
         },
         {
           text: 'Feature',
-          link: '/docs/introduction/features',
+          link: '/docs/introduction/features/',
         },
         {
           text: 'Use Case Example',
-          link: '/docs/introduction/use-case',
+          link: '/docs/introduction/use-case/',
         },
       ],
     },
@@ -52,23 +52,23 @@ function defaultSidebar(): DefaultTheme.SidebarItem[] {
       items: [
         {
           text: 'Installation',
-          link: '/docs/getting-started/installation',
+          link: '/docs/getting-started/installation/',
         },
         {
           text: 'Supported Key List',
-          link: '/docs/getting-started/supported-key-list',
+          link: '/docs/getting-started/supported-key-list/',
         },
         {
           text: 'Automation Tool',
-          link: '/docs/getting-started/automation-tool',
+          link: '/docs/getting-started/automation-tool/',
         },
         {
           text: 'KeyTik Mechanism',
-          link: '/docs/getting-started/mechanism',
+          link: '/docs/getting-started/mechanism/',
         },
         {
           text: 'Community',
-          link: '/docs/getting-started/community',
+          link: '/docs/getting-started/community/',
         },
       ],
     },
