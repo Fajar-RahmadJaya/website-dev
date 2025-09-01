@@ -21,7 +21,7 @@ const nav: DefaultTheme.NavItem[] = [
   },
   {
     text: 'Docs',
-    link: '/docs/introduction/overview/',
+    link: '/docs/introduction/overview',
     activeMatch: '/docs/',
   },
 ]

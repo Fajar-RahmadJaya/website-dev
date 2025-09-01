@@ -62,9 +62,9 @@ interface GenerateImagesOptions {
 }
 
 function getDir(url: string) {
-  if (url.startsWith('/docs/getting-started/'))
+  if (url.startsWith('/docs/getting-started'))
     return 'Getting Started'
-  else if (url.startsWith('/docs/introduction/'))
+  else if (url.startsWith('/docs/introduction'))
     return 'Introduction'
 
   return undefined
