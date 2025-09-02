@@ -35,3 +35,30 @@ features:
     details: Each automation works independently on its own profile.
     icon: <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="var(--vp-c-yellow-2)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 9h3m-3 3h3m-3 3h3m-6 1c-.306-.613-.933-1-1.618-1H7.618c-.685 0-1.312.387-1.618 1M4 5h16a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1Zm7 5a2 2 0 1 1-4 0 2 2 0 0 1 4 0Z"/></svg>
 ---
+
+<script setup>
+import CustomStats from "@theme/components/CustomStats.vue";
+import DownloadCount from "@theme/components/DownloadCount.vue";
+import Preview from "@theme/components/Preview.vue";
+import StarCount from "@theme/components/StarCount.vue";
+</script>
+
+<CustomStats>
+  <template #card1>
+    <Preview :images="[
+      '/preview/main dark.png',
+      '/preview/main light.png',
+      '/preview/default mode.png',
+      '/preview/key format.gif',
+      '/preview/text mode.png',
+      '/preview/select device.png',
+      '/preview/select program.png',
+    ]" />
+  </template>
+  <template #card2>
+    <DownloadCount />
+  </template>
+  <template #card3>
+    <StarCount />
+  </template>
+</CustomStats>
