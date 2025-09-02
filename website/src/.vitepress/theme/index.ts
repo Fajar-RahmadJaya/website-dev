@@ -12,11 +12,19 @@ import { VueQueryPlugin } from '@tanstack/vue-query'
 import { enhanceAppWithTabs } from 'vitepress-plugin-tabs/client'
 
 // Import icon components
-import { IconBugReport, IconDownload, IconNewspaperVariant } from '@iconify-prerendered/vue-mdi'
+import { IconBugReport, IconDownload } from '@iconify-prerendered/vue-mdi'
 
+// Import vitepress-plugin-image-viewer
+import 'viewerjs/dist/viewer.min.css'
+import imageViewer from 'vitepress-plugin-image-viewer'
+import vImageViewer from 'vitepress-plugin-image-viewer/lib/vImageViewer.vue'
+import { useRoute } from 'vitepress'
+
+import Layout from './Layout.vue'
+
+// Import tag manager
 import tagManager from './plugin/tagManager'
 import tagManagerFallBack from './plugin/tagManagerFallBack'
-import Layout from './Layout.vue'
 
 // Import adsense
 import Adsense from './components/adsense.vue'
@@ -27,11 +35,16 @@ export default {
     app.use(VueQueryPlugin)
     enhanceAppWithTabs(app)
     app.component('IconDownload', IconDownload)
-    app.component('IconNewspaperVariant', IconNewspaperVariant)
     app.component('IconBugReport', IconBugReport)
     tagManager({ id: 'GTM-NM64V2DN' })
     tagManagerFallBack({ id: 'GTM-NM64V2DN' })
     app.component('Adsense', Adsense)
+    app.component('vImageViewer', vImageViewer)
+  },
+  setup() {
+    // Image Viewer
+    const route = useRoute()
+    imageViewer(route)
   },
   Layout,
 }
