@@ -18,13 +18,6 @@ onMounted(() => {
   isWindows.value = !!navigator.userAgent.match(/windows/i)
 })
 
-function handleAnalytics() {
-  window.gtag?.('event', 'Download', {
-    event_category: 'App',
-    event_label: 'Stable',
-    version: release.stable.tag_name,
-  })
-}
 </script>
 
 <template>
@@ -43,7 +36,6 @@ function handleAnalytics() {
         class="download-button primary"
         :download="downloadInformation.stable.asset?.name"
         :href="downloadInformation.stable.asset?.browser_download_url"
-        @click="handleAnalytics"
       >
         <IconDownload />
         <span class="text">KeyTik</span>

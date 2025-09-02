@@ -1,11 +1,6 @@
 <script setup lang="ts">
 /// <reference types="@types/gtag.js" />
 
-function handleAnalytics() {
-  window.gtag?.('event', 'Gumroad_Visit', {
-    event_category: 'Click',
-  })
-}
 </script>
 
 <template>
@@ -14,7 +9,6 @@ function handleAnalytics() {
       <a
         class="pay-button primary"
         href="https://fajarrahmadjaya.gumroad.com/l/keytik-pro/KeyTikPro25"
-        @click="handleAnalytics"
       >
         <IconDownload />
         <span class="text">Get KeyTik Pro</span>
