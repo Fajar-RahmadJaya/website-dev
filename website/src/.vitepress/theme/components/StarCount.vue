@@ -2,24 +2,74 @@
 import { onMounted, ref } from 'vue'
 
 const starCount = ref(0)
-const starHistory = ref([])
 const isLoading = ref(true)
 const error = ref(null)
 const growthRate = ref(null)
 
+async function fetchCurrentStars() {
+  const response = await fetch('https://api.github.com/repos/Fajar-RahmadJaya/KeyTik')
+  const data = await response.json()
+  return data.stargazers_count
+}
+
+async function fetchStarsAtDate(targetDate) {
+  let page = 1
+  const per_page = 100
+  let stars = 0
+  let found = false
+
+  while (!found) {
+    const response = await fetch(
+      `https://api.github.com/repos/Fajar-RahmadJaya/KeyTik/stargazers?per_page=${per_page}&page=${page}`,
+      {
+        headers: {
+          Accept: 'application/vnd.github.v3.star+json',
+        },
+      },
+    )
+    const data = await response.json()
+    if (!Array.isArray(data) || data.length === 0)
+      break
+
+    for (let i = 0; i < data.length; i++) {
+      const starred_at = data[i].starred_at.split('T')[0]
+      if (starred_at > targetDate) {
+        stars = (page - 1) * per_page + i
+        found = true
+        break
+      }
+    }
+    if (!found)
+      page++
+  }
+
+  if (!found) {
+    const response = await fetch('https://api.github.com/repos/Fajar-RahmadJaya/KeyTik')
+    const repoData = await response.json()
+    stars = repoData.stargazers_count
+  }
+
+  return stars
+}
+
 onMounted(async () => {
   try {
-    const response = await fetch('https://api.github.com/repos/Fajar-RahmadJaya/KeyTik')
-    const data = await response.json()
-    starCount.value = data.stargazers_count
+    const now = new Date()
+    const oneMonthAgo = new Date(now)
+    oneMonthAgo.setMonth(oneMonthAgo.getMonth() - 1)
+    const twoMonthsAgo = new Date(now)
+    twoMonthsAgo.setMonth(twoMonthsAgo.getMonth() - 2)
 
-    starHistory.value = [42, 45, 51, 58, 65, 72, 78, 85, 92, 98, 105]
+    const isoOneMonthAgo = oneMonthAgo.toISOString().split('T')[0]
+    const isoTwoMonthsAgo = twoMonthsAgo.toISOString().split('T')[0]
 
-    const lastMonthGrowth
-      = starHistory.value[starHistory.value.length - 1]
-      - starHistory.value[Math.max(0, starHistory.value.length - 5)]
-    growthRate.value = lastMonthGrowth
-
+    const [currentStars, starsOneMonthAgo, starsTwoMonthsAgo] = await Promise.all([
+      fetchCurrentStars(),
+      fetchStarsAtDate(isoOneMonthAgo),
+      fetchStarsAtDate(isoTwoMonthsAgo),
+    ])
+    starCount.value = currentStars
+    growthRate.value = starsOneMonthAgo - starsTwoMonthsAgo
     isLoading.value = false
   }
   catch (err) {
