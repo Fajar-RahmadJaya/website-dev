@@ -13,7 +13,7 @@ function handleAnalytics() {
     <div class="pay-buttons">
       <a
         class="pay-button primary"
-        href="https://gumroad.com/checkout?product=ayrjjt&quantity=1&code=KeyTikPro25"
+        href="https://fajarrahmadjaya.gumroad.com/l/keytik-pro/KeyTikPro25"
         @click="handleAnalytics"
       >
         <IconDownload />
