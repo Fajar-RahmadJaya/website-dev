@@ -1,6 +1,5 @@
 <script setup lang="ts">
 /// <reference types="@types/gtag.js" />
-
 </script>
 
 <template>

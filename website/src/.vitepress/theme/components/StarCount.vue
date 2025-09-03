@@ -281,39 +281,4 @@ function formatNumber(num) {
   width: 100%;
   text-align: center;
 }
-
-@media (max-width: 480px) {
-  .source-icon {
-    width: 80px;
-    height: 80px;
-    margin-bottom: 1rem;
-  }
-
-  .starcount-title {
-    font-size: 1.3rem;
-    margin-bottom: 1.2rem;
-  }
-
-  .source-count {
-    font-size: 1.1rem;
-  }
-
-  .starcount-card {
-    padding: 1.25rem;
-  }
-
-  .star-number {
-    font-size: 2rem;
-  }
-
-  .sparkline-bar {
-    min-width: 4px;
-  }
-}
-
-@media (max-width: 768px) {
-  .star-number {
-    font-size: 2.5rem;
-  }
-}
 </style>

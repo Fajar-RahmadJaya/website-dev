@@ -17,7 +17,6 @@ const isWindows = ref(true)
 onMounted(() => {
   isWindows.value = !!navigator.userAgent.match(/windows/i)
 })
-
 </script>
 
 <template>

@@ -216,35 +216,4 @@ function formatNumber(n: number | null) {
   font-weight: 700;
   color: var(--vp-c-text-1, #fff);
 }
-
-@media (max-width: 480px) {
-  .source-icon {
-    width: 80px;
-    height: 80px;
-    margin-bottom: 1rem;
-  }
-
-  .stats-title {
-    font-size: 1.3rem;
-    margin-bottom: 1.2rem;
-  }
-
-  .source-count {
-    font-size: 1.1rem;
-  }
-
-  .download-stats-card {
-    padding: 1.25rem;
-  }
-
-  .stats-number {
-    font-size: 2.5rem;
-  }
-}
-
-@media (max-width: 768px) {
-  .stats-number {
-    font-size: 2.5rem;
-  }
-}
 </style>

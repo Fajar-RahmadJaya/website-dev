@@ -201,15 +201,4 @@ function openViewer() {
   background: var(--vp-c-brand-1);
   border-color: var(--vp-c-brand-1);
 }
-
-@media (max-width: 480px) {
-  .preview-card {
-    padding: 1.25rem;
-  }
-
-  .image-container {
-    width: 100%;
-    height: 7rem;
-  }
-}
 </style>
