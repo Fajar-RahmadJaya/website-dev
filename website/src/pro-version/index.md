@@ -21,16 +21,15 @@ Pro version has additional features compared to the normal version while not ove
 <PayButtons />
 <ProChangelog version= "v4.2.0">
 
-- Add Multi Copy.
-- Improve Select Button Functionality.
-- Add Check Installation on Setting.
-- Add Run on Specific Program and Device For Automation Tool.
-- Add Caps Lock On and Off Condition for Shortcuts.
-- Move Dynamic Files to User Data so KeyTik Pro Doesn't Need Administration Privileges.
-- Fix Multiple Files Opener Error When One Files Not Opened.
-- Fix Incorrect Shortcuts Placement.
-- Fix Some Automation Tool Can't be Saved.
-- Minor Bug Fix.
+- Overall UI improvement.
+- Improve key list.
+- Keyboard and mouse key addition.
+- Add virtual keyboard code on key list.
+- Ability to detect and use scan code on default key.
+- Add ASCII character on key list.
+- Add ANSI character on key list.
+- Add Unicode character on key list.
+- Bug fixes.
 
 </ProChangelog>
 
