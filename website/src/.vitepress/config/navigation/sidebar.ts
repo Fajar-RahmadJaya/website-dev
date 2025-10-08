@@ -55,8 +55,17 @@ function defaultSidebar(): DefaultTheme.SidebarItem[] {
           link: '/docs/getting-started/installation',
         },
         {
-          text: 'Supported Key List',
-          link: '/docs/getting-started/supported-key-list',
+          text: 'List of Supported Keys',
+          collapsed: true,
+          items: [
+            { text: 'Keyboard', link: '/docs/getting-started/key-list/keyboard' },
+            { text: 'Mouse', link: '/docs/getting-started/key-list/mouse' },
+            { text: 'Virtual Keyboard Code', link: '/docs/getting-started/key-list/vk-code' },
+            { text: 'Scan Code', link: '/docs/getting-started/key-list/scan-code' },
+            { text: 'ASCII', link: '/docs/getting-started/key-list/ascii' },
+            { text: 'ANSI', link: '/docs/getting-started/key-list/ansi' },
+            { text: 'Unicode', link: '/docs/getting-started/key-list/unicode' },
+          ],
         },
         {
           text: 'Automation Tool',
