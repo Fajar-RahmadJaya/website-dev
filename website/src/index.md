@@ -51,10 +51,12 @@ import StarCount from "@theme/components/StarCount.vue";
       '/preview/main dark.png',
       '/preview/main light.png',
       '/preview/default mode.png',
+      '/preview/choosing key1',
+      '/preview/choosing key2',
       '/preview/key format.gif',
-      '/preview/text mode.png',
       '/preview/select device.png',
       '/preview/select program.png',
+      '/preview/text mode.png',
     ]" />
   </template>
   <template #card2>
