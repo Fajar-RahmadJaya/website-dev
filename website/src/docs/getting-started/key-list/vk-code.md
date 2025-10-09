@@ -19,6 +19,7 @@ Below is a list of Virtual Keyboard Code that KeyTik supports. This list is adap
 ## Virtual Keyboard Code
 
 | **Name** | **Description**                                  |
+|--------|----------------------------------------------------|
 |VK_LBUTTON|Left mouse button|
 |VK_RBUTTON|Right mouse button|
 |VK_CANCEL|Control-break processing|
