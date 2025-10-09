@@ -79,7 +79,7 @@ Below is a list of ASCII Characters that KeyTik supports. This is part of the li
 |Y|Uppercase letter Y|
 |Z|Uppercase letter Z|
 |[|Left square bracket|
-|\\|Backslash|
+|&#92;|Backslash|
 |]|Right square bracket|
 |^|Caret|
 |_|Underscore|
