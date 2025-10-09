@@ -51,10 +51,6 @@ function defaultSidebar(): DefaultTheme.SidebarItem[] {
       text: 'Getting Started',
       items: [
         {
-          text: 'Installation',
-          link: '/docs/getting-started/installation',
-        },
-        {
           text: 'List of Supported Keys',
           collapsed: true,
           items: [
