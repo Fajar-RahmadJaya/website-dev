@@ -18,6 +18,8 @@ KeyTik Pro is available at Gumroad at **$20 for lifetime purchase**.
 
 Pro version has additional features compared to the normal version while not overwhelming it. Think of Pro version as a way to support the developer or as a more user-friendly version of the normal version.
 
+> **Take 25% off for 10 people only. Use the button below to get the discount. (7 Person Left)**
+
 <PayButtons />
 <ProChangelog version= "v4.2.0">
 
@@ -33,12 +35,67 @@ Pro version has additional features compared to the normal version while not ove
 
 </ProChangelog>
 
-## Pro Version Preview
-<p align="center">
-  <img src="/pro-version/slideshow.gif" alt="Pro Version Slideshow" width="500" />
-</p>
+## What You Get With the Pro Version
+On KeyTik Pro, you will get every feature on the normal version (see [Normal Version Features](/docs/introduction/features) for more) plus additional features. Below are the additional features on KeyTik Pro:
 
-## My Plan for the Pro Version
+### Better Auto Clicker
+
+<p align="center">
+  <img src="/pro-version/auto clicker.png" alt="Pro Version Auto Clicker" width="400" />
+</p>
+<br>
+
+- Shortcuts: What key to press to activate auto clicker.
+- Click Interval: Interval between each click.
+- Key to press (Mouse Button): What key to press for auto clicker (not just left click or right click but more keys on the keyboard such as all alphabet, shift, ctrl and more)
+- Click type: How will the key press behave. Single click, Double Click, Hold.
+- Click Location: Where click will pressed. Follow cursor, clicking on cursor. Fixed position, position on screen.
+- Click Repeat: How long does the click will pressed. Infinite clicks, stop until it deactivates by shortcuts. Fixed count, click as much as the count specified.
+
+### Better Files Opener
+
+<p align="center">
+  <img src="/pro-version/files opener.png" alt="Pro Version Files Opener" width="400" />
+</p>
+<br>
+
+- Using shortcuts to open multiple files.
+- You can specify what files to open yourself without limit.
+
+### Multi Copy Paste
+
+<p align="center">
+  <img src="/pro-version/multi copy paste.png" alt="Pro Version Multi Copy Paste" width="400" />
+</p>
+<br>
+
+- Make multiple shortcuts for copy and paste.
+- Each shortcuts have different room to save copied text.
+- For example: First copy shortcuts copied "text1" and second copy shortcuts copied "text2". Pressing second paste shortcuts will paste "text2" and pressing first shortcuts will paste "text1".
+
+### Always on Top Manager
+
+<p align="center">
+  <img src="/pro-version/always on top manager.png" alt="Pro Version Always on Top Manager" width="400" />
+</p>
+<br>
+
+- Make the window where cursor is located always on top with a shortcut or click.
+- Shortcuts or clicks can be changed by user.
+
+### Window Size Changer
+
+<p align="center">
+  <img src="/pro-version/window manager.png" alt="Pro Version Window Mnaager" width="400" />
+</p>
+<br>
+
+- Change window size with shortcut or click.
+- How window will be changed: Full, horizontal half top, horizontal half bottom, vertical half left, vertical half right, quarter top left, quarter top right, quarter bottom left, quarter bottom right, original position.
+- The window size will be changed alternately with each click.
+- Shortcuts or clicks can be changed by user.
+
+## Future Plan for the Pro Version
 - Additional UI for file openers. (Completed)
 - Additional UI for auto clicker. (Completed)
 - Additional UI for screen clicker. (On Progress)
@@ -55,54 +112,3 @@ Note:
 - On Progress: Worked on.
 - Completed: Implemented.
 - No Description: Not implemented and yet worked on.
-
-## Why You Choose Pro Version
-- Support the developer.
-- More feature than the regular version.
-- Get early access for the upcoming KeyTik update.
-- Expect an evolving software. My goal for KeyTik Pro is software that covers or combines many tools at once.
-
-## Pro Version Feature
-### Keyboard Remapper
-- Remap on specific devices and programs.
-- Original key (key that you press will simulate remap key): Single key, multiple key or shortcuts, double click.
-- Remap key (Key that will be shown or simulated when you press original key): Single key, multiple key or shortcuts, hold key, text (Simulate typing such as 'Hello').
-- Example: Pressing the left shift will hold left click, with the interval chosen by user. Pressing Ctrl+H will type Hello. And more.
-- Multiple remap settings or profiles: You can create your remap settings as much as you want and activate or deactivate them separately.
-
-### Auto Clicker
-- Shortcuts: What key to press to activate auto clicker.
-- Click Interval: Interval between each click.
-- Key to press (Mouse Button): What key to press for auto clicker (not just left click or right click but more keys on the keyboard such as all alphabet, shift, ctrl and more)
-- Click type: How will the key press behave. Single click, Double Click, Hold.
-- Click Location: Where click will pressed. Follow cursor, clicking on cursor. Fixed position, position on screen.
-- Click Repeat: How long does the click will pressed. Infinite clicks, stop until it deactivates by shortcuts. Fixed count, click as much as the count specified.
-
-### Easy Always on Top
-- Make the window where cursor is located always on top with a shortcut or click.
-- Shortcuts or clicks can be changed by user.
-
-### Window Size Changer
-- Change window size with shortcut or click.
-- How window will be changed: Full, horizontal half top, horizontal half bottom, vertical half left, vertical half right, quarter top left, quarter top right, quarter bottom left, quarter bottom right, original position.
-- The window size will be changed alternately with each click.
-- Shortcuts or clicks can be changed by user.
-
-### Multiple Files Opener
-- Using shortcuts to open multiple files.
-- You can specify what files to open yourself without limit.
-
-### Multi Copy Paste
-- Make multiple shortcuts for copy and paste.
-- Each shortcuts have different room to save copied text.
-- For example: First copy shortcuts copied "text1" and second copy shortcuts copied "text2". Pressing second paste shortcuts will paste "text2" and pressing first shortcuts will paste "text1".
-
-### General Features
-This is a feature that all profile has. Profile is what setting you create whether it's for auto clicker, keyboard remap or anything I have described earlier.
-- Run on startup for individual profiles.
-- Managed profiles: Run, exit, delete, edit, copy each profile.
-- Assign profiles on specific devices: Make profiles only work on specific keyboards or mouse.
-- Assign profiles on specific programs; Make profiles only work on specific programs using program class or process.
-- Store profiles: Move profiles to storage UI and remove them from the main UI.
-- Import profiles: Find AutoHotkey script online and import it to software.
-- Always on top: Make software always on top.

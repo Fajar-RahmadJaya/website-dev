@@ -1,5 +1,6 @@
 # Requested URL -> Redirected URL -> HTTP Code
 /introduction/keytik-pro/                   /pro-version/                                     301
+/docs/getting-started/installation          /download/#installation                           301
 /introduction/                              /docs/introduction/overview                       301
 /introduction/features/                     /docs/introduction/features                       301
 /introduction/overview/                     /docs/introduction/overview                       301
