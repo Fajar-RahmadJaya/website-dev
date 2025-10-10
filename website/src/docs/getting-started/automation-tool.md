@@ -8,10 +8,9 @@ description: Guide to customize automation tool.
 
 KeyTik also come with various automation tool you can use. It count as profile and use text mode. We take it from our side project on [AutoHotkey Script Collection And Template](https://github.com/Fajar-RahmadJaya/AutoHotkeyCollection). We add comment on the script to make it easier to change and tell you which part you can customize. So if there are ";" on the line, that mean after it or ";" right is comment and what you can change is before it or left ";". Example: '''space:: ; This is comment'''. On that example 'space' is what you can change and '; this is comment' is the comment. Comment mean AutoHotkey not detect it as input it wouldn't affect script.
 
-> [!NOTE]
-> All KeyTik AutoHotkey Script Including Automation Tool is Using AutoHotkey V2.
-
-<Adsense />
+::: tip
+All KeyTik AutoHotkey Script Including Automation Tool is Using AutoHotkey V2.
+:::
 
 ## Auto Clicker
 AutoHotkey can also be used as auto clicker. But not like other auto clicker, AutoHotkey can made you able to add more command to the clicker. For example in this code, you can use 'e' to make condition for it to work. So, if you hold 'e' it will send left click multiple time and you can adjust the interval between click. For short, with this you can do more advance auto clicker in lightweight size. You can also use this as template or adjust to your preference on interval, condition for script to work, change left click with another keys etc.

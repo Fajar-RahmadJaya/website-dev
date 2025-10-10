@@ -14,8 +14,6 @@ Below is a list of Mouse-specific keys that KeyTik supports. Single keys like sy
 
 <br>
 
-<Adsense />
-
 ## Mouse
 
 | **Name** | **Description**                                  |

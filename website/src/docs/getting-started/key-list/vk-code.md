@@ -14,8 +14,6 @@ Below is a list of Virtual Keyboard Code that KeyTik supports. This list is adap
 
 <br>
 
-<Adsense />
-
 ## Virtual Keyboard Code
 
 | **Name** | **Description**                                  |

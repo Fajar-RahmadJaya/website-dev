@@ -14,8 +14,6 @@ Below is a list of ANSI Characters that KeyTik supports. This is part of the lis
 
 <br>
 
-<Adsense />
-
 ## ANSI Character
 
 | **Name** | **Description**                                  |

@@ -8,8 +8,6 @@ description: Example case to use KeyTik.
 
 Here is example how you can use KeyTik and utilize each features.
 
-<Adsense />
-
 ## Advance Keyboard Remapping
 KeyTik not only able to remap just one key to another but also multiple remap format you can use. This can make you have more control over your keyboard or mouse. Normal keyboard and mouse sometimes is boring and not efficient to use. With KeyTik, you can made your keyboard or mouse more useful, unique and can behave as you like it.
 

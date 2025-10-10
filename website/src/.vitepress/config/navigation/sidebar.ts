@@ -38,7 +38,7 @@ function defaultSidebar(): DefaultTheme.SidebarItem[] {
           link: '/docs/introduction/safety',
         },
         {
-          text: 'Feature',
+          text: 'Features',
           link: '/docs/introduction/features',
         },
         {

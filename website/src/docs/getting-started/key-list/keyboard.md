@@ -13,8 +13,6 @@ KeyTik supports a wide range of keyboard keys, even unusual ones. There are arou
 Below is a list of keyboard-specific keys that KeyTik supports. Single keys like symbols or letters are listed separately. This list is adapted from the [AutoHotkey Website](https://autohotkey.com).
 <br>
 
-<Adsense />
-
 ## General Keys
 
 | **Name** | **Description**                                  |

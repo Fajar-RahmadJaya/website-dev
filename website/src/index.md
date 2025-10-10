@@ -5,7 +5,7 @@ layout: home
 hero:
   name: KeyTik
   text: Powerful All-in-One Automation Tool
-  tagline: Multi-Profile Key Remap, Clicker, Macro, and More.
+  tagline: Multi-Profile Key Mapper, Clicker, Macro, and More.
   image:
     alt: Sun and Moon Icon
     light: /home/sun2.webp
@@ -22,7 +22,7 @@ customMetaTitle: KeyTik
 
 features:
   - title: Multi Profile Automation
-    details: Keyboard remap, auto clicker, screen clicker, and more.
+    details: Key remapper, auto clicker, screen clicker, file opener and more.
     icon: <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path stroke="var(--vp-c-green-2)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 9h3m-3 3h3m-3 3h3m-6 1c-.306-.613-.933-1-1.618-1H7.618c-.685 0-1.312.387-1.618 1M4 5h16a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1Zm7 5a2 2 0 1 1-4 0 2 2 0 0 1 4 0Z"/></svg>
     link: /docs/getting-started/automation-tool
     linkText: Automation tool

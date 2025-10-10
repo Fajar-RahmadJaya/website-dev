@@ -18,7 +18,10 @@ KeyTik Pro is available at Gumroad at **$20 for lifetime purchase**.
 
 Pro version has additional features compared to the normal version while not overwhelming it. Think of Pro version as a way to support the developer or as a more user-friendly version of the normal version.
 
-> **Take 25% off for 10 people only. Use the button below to get the discount. (7 Person Left)**
+::: tip Limited Offer
+Get it for $15 with 25% off — limited to the first 10 people. (7 people left)
+Use the button below to claim your discount.
+:::
 
 <PayButtons />
 <ProChangelog version= "v4.2.0">
@@ -95,7 +98,7 @@ On KeyTik Pro, you will get every feature on the normal version (see [Normal Ver
 - The window size will be changed alternately with each click.
 - Shortcuts or clicks can be changed by user.
 
-## Future Plan for the Pro Version
+## Features Plan for the Pro Version
 - Additional UI for file openers. (Completed)
 - Additional UI for auto clicker. (Completed)
 - Additional UI for screen clicker. (On Progress)
@@ -108,7 +111,8 @@ On KeyTik Pro, you will get every feature on the normal version (see [Normal Ver
 - Macro recording. Record any input and simulate it.
 - Upcoming KeyTik update will be implemented on KeyTik Pro first.
 
-Note:
+::: info Note
 - On Progress: Worked on.
 - Completed: Implemented.
 - No Description: Not implemented and yet worked on.
+:::

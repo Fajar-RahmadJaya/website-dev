@@ -8,8 +8,6 @@ description: KeyTik has a rich but not overwhelming features.
 
 KeyTik comes packed with a wide range of features to give you ultimate control over your profiles and input. Here is KeyTik features:
 
-<Adsense />
-
 ## Key Features
 Below are KeyTik's key features that make KeyTik different from other automation tools:
 

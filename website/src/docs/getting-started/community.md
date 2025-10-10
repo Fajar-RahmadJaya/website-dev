@@ -7,8 +7,6 @@ description: Join KeyTik community.
 # Community
 Join KeyTik community.
 
-<Adsense />
-
 ## Have a Suggestion or Question?
 We'd love to hear from you! Your feedback is essential for the continued improvement of KeyTik. If you have any suggestions or questions, please submit them on the [KeyTik Issues page](https://github.com/Fajar-RahmadJaya/KeyTik/issues).
 
@@ -23,8 +21,6 @@ To make it easier for you to submit feedback, we've provided several issue templ
 Simply choose the most relevant template and provide as much detail as possible. Your input will help us improve KeyTik for everyone!
 
 Thank you for your support — we truly appreciate it!
-
-<Adsense />
 
 ## Contributing
 Contributions are welcome! You can contribute by submitting a **pull request** for improvements, such as bug fixes, new features, or automation tool additions. Please follow the [Contribution Guidelines](https://github.com/Fajar-RahmadJaya/KeyTik/blob/main/CONTRIBUTING.md) when making contributions.

@@ -14,8 +14,6 @@ Below is a list of Unicode block that KeyTik supports. This is part of the list 
 
 <br>
 
-<Adsense />
-
 ## Unicode Block
 
 | **Name** |
