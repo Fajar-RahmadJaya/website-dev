@@ -1,15 +1,9 @@
-**KeyTik Pro v4.3.0 Changelog**
-<br>
+### KeyTik Pro v4.3.0 Changelog
+
 1. Overall UI improvement.
-<br>
 2. Improve key list.
-<br>
 3. Keyboard and mouse key addition.
-<br>
 4. Add ASCII character on key list.
-<br>
 5. Add ANSI character on key list.
-<br>
-6. Add Unicode character on key list. 
-<br>
+6. Add Unicode character on key list.
 7. Bug fixes.
