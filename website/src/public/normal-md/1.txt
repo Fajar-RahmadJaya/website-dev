@@ -10,13 +10,13 @@ Pro version has additional features compared to the normal version while not ove
 
 **Changelog**:
 
-- Overall UI improvement.
-- Improve key list.
-- Keyboard and mouse key addition.
-- Add virtual keyboard code on key list.
-- Ability to detect and use scan code on default key.
-- Add ASCII character on key list.
-- Add ANSI character on key list.
-- Add Unicode character on key list.
-- Bug fixes.
+1. Overall UI improvement.
+2. Improve key list.
+3. Keyboard and mouse key addition.
+4. Add virtual keyboard code on key list.
+5. Ability to detect and use scan code on default key.
+6. Add ASCII character on key list.
+7. Add ANSI character on key list.
+8. Add Unicode character on key list.
+9. Bug fixes.
 
