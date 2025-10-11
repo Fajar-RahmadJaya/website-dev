@@ -1,0 +1,13 @@
+### Useful Resources
+
+1. [Full Documentation](https://keytik.com/docs/introduction/overview)
+2. [Installation](https://keytik.com/download/#installation)
+3. [Use Case Example](https://keytik.com/docs/introduction/use-case)
+4. [Automation Tool](https://keytik.com/docs/getting-started/automation-tool)
+5. [KeyTik Mechanism](https://keytik.com/docs/getting-started/mechanism)
+6. [List of Supported Key](https://keytik.com/docs/getting-started/key-list/keyboard)
+7. [Safety](https://keytik.com/docs/introduction/safety)
+8.  [Have a Suggestion or Question?](https://github.com/Fajar-RahmadJaya/KeyTik?tab=readme-ov-file#have-a-suggestion-or-question)
+9.  [License](https://github.com/Fajar-RahmadJaya/KeyTik?tab=readme-ov-file#license)
+10. [Contributing](https://github.com/Fajar-RahmadJaya/KeyTik?tab=readme-ov-file#contributing)
+11. [Star History](https://github.com/Fajar-RahmadJaya/KeyTik?tab=readme-ov-file#star-history)

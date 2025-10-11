@@ -1,0 +1,9 @@
+### KeyTik v2.3.0 Changelog
+
+1. Overall UI improvement.
+2. Improve key list.
+3. Keyboard and mouse key addition.
+4. Add ASCII character on key list.
+5. Add ANSI character on key list.
+6. Add Unicode character on key list. 
+7. Bug fixes.
