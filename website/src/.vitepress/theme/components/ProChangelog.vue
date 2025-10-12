@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { toRefs, ref, onMounted } from 'vue'
+import { onMounted, ref } from 'vue'
 import MarkdownIt from 'markdown-it'
 
 const contentHtml = ref<string | null>(null)
@@ -7,14 +7,16 @@ const contentHtml = ref<string | null>(null)
 onMounted(async () => {
   try {
     const res = await fetch('/pro-md/3.txt')
-    if (!res.ok) throw new Error('Failed to fetch pro changelog')
+    if (!res.ok) {
+      throw new Error('Failed to fetch pro changelog')
+    }
     const txt = await res.text()
     const lines = txt.split(/\r?\n/)
     const stripped = lines.slice(1).join('\n').trim()
     const md = new MarkdownIt()
     contentHtml.value = md.render(stripped)
   }
-  catch (e) {
+  catch {
     contentHtml.value = null
   }
 })
