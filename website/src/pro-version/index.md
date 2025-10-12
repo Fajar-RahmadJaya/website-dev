@@ -19,24 +19,12 @@ KeyTik Pro is available at Gumroad at **$20 for lifetime purchase**.
 Pro version has additional features compared to the normal version while not overwhelming it. Think of Pro version as a way to support the developer or as a more user-friendly version of the normal version.
 
 ::: tip Limited Offer
-Get it for $15 with 25% off — limited to the first 10 people. (7 people left)
+Get it for $15 with 25% off — limited to the first 10 people. (6 people left)
 Use the button below to claim your discount.
 :::
 
 <PayButtons />
-<ProChangelog version= "v4.2.0">
-
-- Overall UI improvement.
-- Improve key list.
-- Keyboard and mouse key addition.
-- Add virtual keyboard code on key list.
-- Ability to detect and use scan code on default key.
-- Add ASCII character on key list.
-- Add ANSI character on key list.
-- Add Unicode character on key list.
-- Bug fixes.
-
-</ProChangelog>
+<ProChangelog />
 
 ## What You Get With the Pro Version
 On KeyTik Pro, you will get every feature on the normal version (see [Normal Version Features](/docs/introduction/features) for more) plus additional features. Below are the additional features on KeyTik Pro:
