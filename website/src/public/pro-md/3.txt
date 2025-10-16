@@ -22,3 +22,6 @@
 2. Improve AutoHotkey v2 installation detection.
 4. Add NumLock ON and Off in the list of key
 3. Improve performance.
+5. Fix save profile not doing anything.
+
+I noticed that there are a lot of parsing and writing errors. The key is not saved correctly. I fix it as soon as possible. Now it should work properly. If you download v4.3.2 before 17 September 2025 00:00, please redownload it again to fix the error. I am sorry for the inconvenience, and thank you for your continuous support!
