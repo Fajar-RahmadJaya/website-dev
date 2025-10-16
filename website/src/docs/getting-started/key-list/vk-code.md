@@ -12,8 +12,6 @@ KeyTik supports remapping and sending VK codes. Virtual keyboard codes (VK codes
 
 Below is a list of Virtual Keyboard Code that KeyTik supports. This list is adapted from the [Microsoft Website](https://learn.microsoft.com/en-us/windows/win32/inputdev/virtual-key-codes).
 
-<br>
-
 ## Virtual Keyboard Code
 
 | **Name** | **Description**                                  |
