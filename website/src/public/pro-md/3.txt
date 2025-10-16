@@ -8,7 +8,7 @@
 6. Add Unicode character on key list.
 7. Bug fixes.
 
-### KeyTik Pro v4.3.1 Changelog
+### v4.3.1 Changelog
 
 1. Add icon cache for better icon rendering.
 2. Change Readme! window to announcement window.
@@ -16,3 +16,9 @@
 4. Fix exit button icon not changed.
 5. Fix profile layout stretch.
 
+### 4.3.2 Changelog
+
+1. Include symbol search on the choose key.
+2. Improve AutoHotkey v2 installation detection.
+4. Add NumLock ON and Off in the list of key
+3. Improve performance.

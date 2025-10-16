@@ -22,4 +22,11 @@ Pro version has additional features compared to the normal version while not ove
 4. Fix exit button icon not changed.
 5. Fix profile layout stretch.
 
+### v4.2.3 Changelog
+
+1. Include symbol search on the choose key.
+2. Improve AutoHotkey v2 installation detection.
+4. Add NumLock ON and Off in the list of key
+3. Improve performance.
+
 
