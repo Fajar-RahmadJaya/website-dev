@@ -12,8 +12,6 @@ KeyTik supports sending ANSI characters. There are around 122 ANSI characters ar
 
 Below is a list of ANSI Characters that KeyTik supports. This is part of the list of supported single keys.
 
-<br>
-
 ## ANSI Character
 
 | **Name** | **Description**                                  |

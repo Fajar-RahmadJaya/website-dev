@@ -11,7 +11,6 @@ KeyTik uses AutoHotkey, so any key supported by AutoHotkey is also supported by 
 KeyTik supports a wide range of keyboard keys, even unusual ones. There are around 94 keyboard specific keys.
 
 Below is a list of keyboard-specific keys that KeyTik supports. Single keys like symbols or letters are listed separately. This list is adapted from the [AutoHotkey Website](https://autohotkey.com).
-<br>
 
 ## General Keys
 

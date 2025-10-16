@@ -12,8 +12,6 @@ KeyTik supports a wide range of mouse keys, even unusual ones. There are around 
 
 Below is a list of Mouse-specific keys that KeyTik supports. Single keys like symbols or letters are listed separately. This list is adapted from the [AutoHotkey Website](https://autohotkey.com).
 
-<br>
-
 ## Mouse
 
 | **Name** | **Description**                                  |

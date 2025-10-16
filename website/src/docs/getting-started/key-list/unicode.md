@@ -12,7 +12,9 @@ KeyTik supports sending Unicode characters. Unicode contains a vast number of ch
 
 Below is a list of Unicode block that KeyTik supports. This is part of the list of supported single keys. Because unicode have a lot of characters, we can't list it all here. Instead you can see the list of character on "Choose Key" window on KeyTik. Or you can find it on other website such as [Compart Website](https://www.compart.com/en/unicode/block)
 
-<br>
+::: tip Note
+You might see some Unicode characters appear as blank. This means your computer does not have a font installed that can render those characters. If that's the case, you need to install a font that supports the characters on your system.
+:::
 
 ## Unicode Block
 

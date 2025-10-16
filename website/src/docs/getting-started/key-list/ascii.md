@@ -12,8 +12,6 @@ KeyTik supports remapping and sending ASCII characters. There are around 94 ASCI
 
 Below is a list of ASCII Characters that KeyTik supports. This is part of the list of supported single keys.
 
-<br>
-
 ## ASCII Character
 
 | **Name** | **Description**                                  |
