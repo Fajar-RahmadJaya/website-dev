@@ -1,24 +1,7 @@
-### KeyTik v2.3.0 Changelog
-
-1. Overall UI improvement.
-2. Improve key list.
-3. Keyboard and mouse key addition.
-4. Add ASCII character on key list.
-5. Add ANSI character on key list.
-6. Add Unicode character on key list. 
-7. Bug fixes.
-
-### v2.3.1 Changelog
-
-1. Add icon cache for better icon rendering.
-2. Change Readme! window to announcement window.
-3. Add dynamic announcement (fetched from KeyTik website).
-4. Fix exit button icon not changed.
-5. Fix profile layout stretch.
-
-### KeyTik v2.3.4 Changelog
+### KeyTik v2.3.2 Changelog
 
 1. Include symbol search on the choose key.
 2. Improve AutoHotkey v2 installation detection.
-4. Add NumLock ON and Off in the list of key
-3. Improve performance.
+3. Add NumLock ON and Off in the list of key
+4. Improve performance.
+5. Fix save profile not doing anything.
