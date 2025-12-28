@@ -6,26 +6,6 @@ Pro version has additional features compared to the normal version while not ove
 
 **Get it for $15 with 25% off — limited to the first 10 people. (2 people left) Check out [here](https://fajarrahmadjaya.gumroad.com/l/keytik-pro/KeyTikPro25) to claim your discount.**
 
-### KeyTik Pro v4.3.0 Changelog
-1. Overall UI improvement.
-2. Improve key list.
-3. Keyboard and mouse key addition.
-4. Add ASCII character on key list.
-5. Add ANSI character on key list.
-6. Add Unicode character on key list.
-7. Bug fixes.
-
-### v4.3.1 Changelog
-1. Add icon cache for better icon rendering.
-2. Change Readme! window to announcement window.
-3. Add dynamic announcement (fetched from KeyTik website).
-4. Fix exit button icon not changed.
-5. Fix profile layout stretch.
-
-### v4.2.3 Changelog
-
-1. Include symbol search on the choose key.
-2. Improve AutoHotkey v2 installation detection.
-3. Add NumLock ON and Off in the list of key
-4. Improve performance.
-5. Fix save profile not doing anything.
+### KeyTik Pro v4.3.3 Changelog
+- Bug fixes
+- Add disable first key feature
