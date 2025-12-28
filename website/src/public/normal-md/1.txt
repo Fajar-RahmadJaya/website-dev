@@ -6,6 +6,7 @@ Pro version has additional features compared to the normal version while not ove
 
 **Get it for $15 with 25% off — limited to the first 10 people. (2 people left) Check out [here](https://fajarrahmadjaya.gumroad.com/l/keytik-pro/KeyTikPro25) to claim your discount.**
 
-### KeyTik Pro v4.3.3 Changelog
-1. Bug fixes
-2. Add disable first key feature
+### KeyTik Pro v4.3.4 Changelog
+1. Add AutoHotkey Interception folder checker
+2. Fix select device button not doing anything
+3. Fix change profile location move folder incorrectly
