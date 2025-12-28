@@ -19,7 +19,7 @@ KeyTik Pro is available at Gumroad at **$20 for lifetime purchase**.
 Pro version has additional features compared to the normal version while not overwhelming it. Think of Pro version as a way to support the developer or as a more user-friendly version of the normal version.
 
 ::: tip Limited Offer
-Get it for $15 with 25% off — limited to the first 10 people. (4 people left)
+Get it for $15 with 25% off — limited to the first 10 people. (2 people left)
 Use the button below to claim your discount.
 :::
 
