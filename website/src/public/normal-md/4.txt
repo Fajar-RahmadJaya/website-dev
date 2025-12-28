@@ -1,7 +1,4 @@
-### KeyTik v2.3.2 Changelog
+### KeyTik v2.3.3 Changelog
 
-1. Include symbol search on the choose key.
-2. Improve AutoHotkey v2 installation detection.
-3. Add NumLock ON and Off in the list of key
-4. Improve performance.
-5. Fix save profile not doing anything.
+1. Bug fixes
+2. Add disable first key feature
