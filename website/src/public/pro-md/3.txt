@@ -1,3 +1,4 @@
-### KeyTik Pro v4.3.3 Changelog
-1. Bug fixes
-2. Add disable first key feature
+### KeyTik Pro v4.3.4 Changelog
+1. Add AutoHotkey Interception folder checker
+2. Fix select device button not doing anything
+3. Fix change profile location move folder incorrectly
