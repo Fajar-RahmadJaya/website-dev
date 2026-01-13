@@ -1,4 +1,4 @@
-### KeyTik Pro v4.3.4 Changelog
-1. Add AutoHotkey Interception folder checker
-2. Fix select device button not doing anything
-3. Fix change profile location move folder incorrectly
+### KeyTik Pro v4.3.5 Changelog
+1. Fix the wrong version number
+2. Add Alt Gr to key list
+3. Fix select device not showing anything
