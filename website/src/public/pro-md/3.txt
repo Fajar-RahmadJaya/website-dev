@@ -1,4 +1,3 @@
-### KeyTik Pro v4.3.5 Changelog
-1. Fix the wrong version number
-2. Add Alt Gr to key list
-3. Fix select device not showing anything
+### KeyTik Pro v4.3.6 Changelog
+1. Fix bind to device error
+2. Fix Installation checker not detecting Interception Driver

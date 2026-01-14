@@ -4,7 +4,6 @@ KeyTik Pro version is available at Gumroad at $20 for lifetime purchase. Check o
 
 Pro version has additional features compared to the normal version while not overwhelming it. Think of Pro version as a way to support the developer or as a more user-friendly version of the normal version. Pro version consists of additional UI for the auto clicker, file opener, screen clicker, and additional automation tools such as window manager, easy always-on-top, and multi copy-paste.
 
-### KeyTik Pro v4.3.5 Changelog
-1. Fix the wrong version number
-2. Add Alt Gr to key list
-3. Fix select device not showing anything
+### KeyTik Pro v4.3.6 Changelog
+1. Fix bind to device error
+2. Fix Installation checker not detecting Interception Driver
