@@ -7,14 +7,14 @@
     <div class="pay-buttons">
       <a
         class="pay-button primary"
-        href="https://fajarrahmadjaya.gumroad.com/l/keytik-pro/KeyTikPro25"
+        href="https://fajarrahmadjaya.gumroad.com/l/keytik-pro"
       >
         <IconDownload />
         <span class="text">Get KeyTik Pro</span>
       </a>
     </div>
     <span class="price">
-      Limited <strong>25% Off</strong> for 10 customer.
+      Only <strong>20$</strong> for lifetime purchases.
     </span>
   </div>
 </template>
