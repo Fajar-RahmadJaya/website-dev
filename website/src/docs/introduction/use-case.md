@@ -16,7 +16,6 @@ This means you can build an entirely custom keyboard layout from scratch. Every 
 
 Text remapping is especially useful for repetitive phrases. If you find yourself typing the same greeting or boilerplate text over and over, you can assign it to a key and have it typed out instantly. You can also remap key combinations to fill in for keys your keyboard doesn't have — for example, mapping Ctrl + 1 to act as F1.
 
-
 <Adsense />
 
 ## Using a Second Keyboard
@@ -46,7 +45,6 @@ When a task requires opening several files or applications every time you sit do
 
 For full customization details, see [Automation Tool — Multiple Files Opener](https://keytik.com/docs/getting-started/automation-tool#multiple-files-opener).
 
-
 ## Auto Clicker
 
 KeyTik includes a built-in auto clicker that works differently from most. Standard auto clickers are typically limited to left click, but KeyTik's auto clicker supports any key — including keyboard keys, not just mouse buttons. You can also configure the trigger key and the interval between clicks to suit your needs.
@@ -57,7 +55,6 @@ For customization details, see [Automation Tool — Auto Clicker](https://keytik
 
 **Note: Please use the auto clicker responsibly and in accordance with the rules of any game or platform you use it with.**
 
-
 ## Screen Clicker
 
 The screen clicker takes the auto clicker concept further by clicking at specific coordinates on the screen rather than just wherever your cursor happens to be. This makes it useful for automating tasks where the target location on the screen is fixed or predictable — such as working through a series of download prompts, filling out repetitive forms, or interacting with on-screen elements on a set schedule.
@@ -67,6 +64,5 @@ For each click in the sequence, you can define both the coordinates and the dela
 For customization details, see [Automation Tool — Screen Clicker](https://keytik.com/docs/getting-started/automation-tool#screen-clicker).
 
 **Note: Please use the screen clicker responsibly and in accordance with the rules of any game or platform you use it with.**
-
 
 <Adsense />

@@ -290,5 +290,4 @@ Alt & Left::
 return
 ```
 
-
 <Adsense />
