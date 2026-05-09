@@ -6,90 +6,102 @@ description: Guide to customize automation tool.
 
 # Automation Tool
 
-KeyTik also come with various automation tool you can use. It count as profile and use text mode. We take it from our side project on [AutoHotkey Script Collection And Template](https://github.com/Fajar-RahmadJaya/AutoHotkeyCollection). We add comment on the script to make it easier to change and tell you which part you can customize. So if there are ";" on the line, that mean after it or ";" right is comment and what you can change is before it or left ";". Example: '''space:: ; This is comment'''. On that example 'space' is what you can change and '; this is comment' is the comment. Comment mean AutoHotkey not detect it as input it wouldn't affect script.
+KeyTik comes with several built-in automation tools, each of which is treated as a profile and uses text formatting to function, similar to AutoHotKey. These tools are adapted from our side project, [AutoHotkey Script Collection and Templates](https://github.com/Fajar-RahmadJaya/AutoHotkeyCollection). Each script includes inline comments explaining which parts you can customize and how.
+
+Lines that contain a semicolon ( `;` ) are partially or fully commented out — everything to the right of `;` is a comment and has no effect on the script. For example: `space:: ; This is a comment`. Here, `space` is the functional part you can edit, and `; This is a comment` is just a note for your reference.
 
 ::: tip
-All KeyTik AutoHotkey Script Including Automation Tool is Using AutoHotkey V2.
+All KeyTik AutoHotkey scripts, including the automation tools, use AutoHotkey V2.
 :::
 
 ## Auto Clicker
-AutoHotkey can also be used as auto clicker. But not like other auto clicker, AutoHotkey can made you able to add more command to the clicker. For example in this code, you can use 'e' to make condition for it to work. So, if you hold 'e' it will send left click multiple time and you can adjust the interval between click. For short, with this you can do more advance auto clicker in lightweight size. You can also use this as template or adjust to your preference on interval, condition for script to work, change left click with another keys etc.
 
-- How To Use Template
-You can change the code to your preferences like what i describe with adjusting some code such as :
-1. Change interval : `ClickInterval := 100`
-2. Change what key to click : `$e::` and `$e up::`
-3. Change auto click key : `Click`
+AutoHotkey makes a capable auto clicker — and a more flexible one than most dedicated tools. Unlike standard auto clickers that are limited to left click, this script lets you configure any key as the click action. You can also adjust the trigger key (the key you hold to activate it) and the interval between clicks.
 
-- Example Changing Template
-I will give you example if i want to change the code for it to behave like this :
-- Auto clicking 'Space' when i press 'Left Alt' with interval 1 minute (60000 millisecond) :
+Think of the included script as a ready-to-use template. The customizable parts are clearly marked with comments.
+
+**What you can change:**
+
+1. Click interval: `ClickInterval := 100`
+2. Trigger key: `$e::` and `$e up::`
+3. Key to auto-click: `Click`
+
+---
+
+**Example — Auto-clicking Space while holding Left Alt, with a 1-minute interval:**
 
 ```txt
-ClickInterval := 60000  ; Change the interval to 1 minute (60000 millisecond)
+ClickInterval := 60000  ; Interval in milliseconds (60000 = 1 minute)
 
 global isClicking := false
 
-$Lalt:: ; Change this 'to doing auto click when left alt is held'
+$Lalt:: ; Activate while Left Alt is held
 {
     global isClicking
     isClicking := true
     while (isClicking)
     {
-        Space ; Change Auto Clicking to Space
+        Space ; Key to auto-click
         Sleep(ClickInterval)
     }
 }
 
-$Lalt up:: ; Change this 'to doing auto click when left alt is held'
+$Lalt up:: ; Deactivate when Left Alt is released
 {
     global isClicking
     isClicking := false
 }
 ```
 
-- Full Code :
+---
+
+**Full default script:**
+
 ```txt
-ClickInterval := 100 ; Change this if you want to change the interval
+ClickInterval := 100 ; Change to adjust the interval between clicks
 
 global isClicking := false
 
-$e:: ; Change this if you want to change hold 'e' for condition to do auto clicker
+$e:: ; Change to set which key activates the auto clicker when held
 {
     global isClicking
     isClicking := true
     while (isClicking)
     {
-        Click ; Change this if you want to change left click to another key for auto clicker
+        Click ; Change to set which key is auto-clicked
         Sleep(ClickInterval)
     }
 }
 
-$e up:: ; Change this if you want to change hold 'e' for condition to do auto clicker
+$e up:: ; Change to match the trigger key above
 {
     global isClicking
     isClicking := false
 }
 ```
 
-<Adsense />
+---
 
 ## Screen Clicker
-Another useful you can use with AutoHotkey is screen clicker. What screen clicker do is clicking some coordinate on your screen with some interval. There is not much program or software that can do this. If there any, it usually need you to pay to be able to use it. Fortunately there is AutoHotkey that can help you. Screen clicker can be useful if you have repetitive task such as filling form, simulate click, or even clicking element. You can also activate or deactivate it using some key combination to make it more convenient and flexible. Don't worry, because i also made an AutoHotkey script to take screen coordinate and copy it automatically.
 
-- How To Use Template
-There are 3 thing you can modify in this script :
-1. Screen clicker toggle ( To activate or deactivate screen clicker ): `q & e::`  (Line 3)
-2. Screen coordinate :  `coordinates := [[500, 300], [600, 400], [700, 500]]` (Note : You can the coordinate as much as you want) (Line 19)
-3. Interval : `interval := 500` (Line 29)
+The screen clicker is another tool built on AutoHotkey. Rather than clicking at the cursor's current position, it clicks a predefined sequence of screen coordinates at set intervals. This is useful for automating repetitive on-screen tasks — working through a series of download prompts, filling out forms, or interacting with fixed UI elements on a schedule.
 
-- Example Changing Template
-I will give you example the script change. Example, do screen clicker with coordinate [100, 0], [0, 100], [100, 100], [200, 100], [200, 200], [0, 200] with interval 1 minute (60.000 millisecond) if i press (Left Alt + Space).
-   - Open chrome and download folder with shortcut assignment 'alt+space'
+Few programs offer this kind of functionality, and those that do typically require a paid license. A separate coordinate finder script (described below) is also included to make setting up your coordinates straightforward.
+
+**What you can change:**
+
+1. Toggle shortcut (activate/deactivate the screen clicker): `q & e::` (Line 3)
+2. Screen coordinates: `coordinates := [[500, 300], [600, 400], [700, 500]]` — add as many coordinate pairs as needed (Line 19)
+3. Interval between clicks: `interval := 500` (Line 29)
+
+---
+
+**Example — Clicking through six coordinates with a 1-minute interval, toggled by Left Alt + Space:**
+
 ```txt
 toggle := false
 
-Lalt & Space:: ; 'Screen Will Activate or Deactivate if Keys Pressed' Change
+Lalt & Space:: ; Toggle the screen clicker on or off
 {
 global
     toggle := !toggle
@@ -105,7 +117,7 @@ global
 ClickLoop()
 {
 global
-    coordinates := [[100, 0], [0, 100], [100, 100], [200, 100], [200, 200], [0, 200]] ; Coordinate Change
+    coordinates := [[100, 0], [0, 100], [100, 100], [200, 100], [200, 200], [0, 200]] ; Your coordinates
 
     Loop coordinates.Length != 0 ? coordinates.Length : ""
     {
@@ -115,7 +127,7 @@ global
         MouseMove(x, y)
         Click()
 
-        interval := 60000 ; Interval Change
+        interval := 60000 ; Interval in milliseconds
 
         Sleep(interval)
     }
@@ -123,11 +135,14 @@ global
 }
 ```
 
-- Full Code :
+---
+
+**Full default script:**
+
 ```txt
 toggle := false
 
-q & e:: ; Change this to toggle screen clicker on or off
+q & e:: ; Change to set the toggle shortcut
 {
 global
     toggle := !toggle
@@ -143,7 +158,7 @@ global
 ClickLoop()
 {
 global
-    coordinates := [[500, 300], [600, 400], [700, 500]] ; Change the interval to your preference
+    coordinates := [[500, 300], [600, 400], [700, 500]] ; Change to your desired coordinates
 
     Loop coordinates.Length != 0 ? coordinates.Length : ""
     {
@@ -153,7 +168,7 @@ global
         MouseMove(x, y)
         Click()
 
-        interval := 500 ; Change the interval to your preference in millisecond
+        interval := 500 ; Change to your desired interval in milliseconds
 
         Sleep(interval)
     }
@@ -161,20 +176,27 @@ global
 }
 ```
 
-## Screen Coordinate Auto Detect And Copy
-This script is to help you getting coordinate to use on screen clicker. To use it, You just need to click 'space' at default. This script is useful if you work with screen such as programmer or designer. It also easy to use where you just need to press on key and it will automatically take the coordinate and copy it. Because it automatically copy the coordinate, you just need to paste the coordinate if you need it. The coordinate also show up on cursor using tooltip to help user getting coordinate more flexible. Don't worry, because the tooltip is small and generally would not disturb you as it also disappear fast.
+---
 
-- How To Use Template
-What you can change is only 1, that is the condition to start coordinate finder. At default, it's space but you can change it to whatever you need. This not only limited to one key, but you can also use key combination such as shortcut.
+## Screen Coordinate Auto Detect and Copy
 
-- Example Changing Template
-I will give you example the script change. Example, do Screen Coordinate Auto Detect And Copy when pressing (Left Alt + Win)
-The script should be :
+This script makes it easy to collect coordinates for use with the screen clicker. By default, pressing Space detects the cursor's current screen position, copies the coordinate to your clipboard, and briefly displays it as a tooltip near the cursor. Since the coordinate is copied automatically, you can paste it wherever you need it without writing anything down.
+
+The tooltip is intentionally small and disappears quickly so it doesn't get in the way.
+
+**What you can change:**
+
+The only configurable option is the trigger key. By default it is Space, but it can be changed to any key or key combination.
+
+---
+
+**Example — Trigger with Left Alt + Win:**
+
 ```txt
 Persistent
 SetTitleMatchMode(2)
 
-Lalt & Lwin:: ; Condition to Activate or Deactivate Change
+Lalt & Lwin:: ; Change to set the trigger key or combination
 {
     MouseGetPos(&mouseX, &mouseY)
 
@@ -197,12 +219,15 @@ global
 }
 ```
 
-- Full Code :
+---
+
+**Full default script:**
+
 ```txt
 Persistent
 SetTitleMatchMode(2)
 
-Space:: ; Change this for script to take coordinate
+Space:: ; Change to set the trigger key
 {
     MouseGetPos(&mouseX, &mouseY)
 
@@ -224,18 +249,24 @@ global
     return
 }
 ```
+
+---
 
 ## Multiple Files Opener
-You can open some files using shortcut. For example, i want to open files 1 and files 2 when clicking 'alt+left arrow'. I can do that with adjusting some of this code then run the script. After i click 'alt+left arrrow' it should opening files 1 and files 2. Files i mean here is not just files, you can use whatever in your device as long as it has their path like "D\MyFolder\MyFiles". You can use it if you don't want to go to your files directory or want to make your desktop clean. If you want the script to auto run on startup, [click this for more info](https://github.com/Fajar-RahmadJaya/AutoHotkeyCollection/tree/main?tab=readme-ov-file#how-to-run-the-script-) so you can add or remove your script from startup easily. Of course you can also not assign any shortcut to it so if the script clicked or run it will directly open the files or you can just made it to run on startup so your files will automatically opened when you log to your device. Adjust it to your preference and creativity.
 
-- How To Use Template
-You can change the code to your preferences like what i describe with adjusting some code such as :
-1. Assign Shortcut : `alt & left::`
-2. Open the files : `Run("C:\Your\files\path\with\double\quotation\mark")` (Be sure to change this)
+This script opens one or more files or programs when a key or shortcut is pressed. It works with anything that has a file path on your system — documents, applications, folders, shortcuts, and more. This is a convenient way to launch your full working environment in a single key press, or to keep your desktop clean by avoiding pinned shortcuts.
 
-- Example Changing Template
-I will give you example if i want to change the code for it to behave like this :
-   - Open chrome and download folder with shortcut assignment 'alt+space'
+You can also opt to run the script on startup without a trigger key, so your files and programs open automatically whenever you log in. For instructions on adding a script to startup, [see this guide](https://github.com/Fajar-RahmadJaya/AutoHotkeyCollection/tree/main?tab=readme-ov-file#how-to-run-the-script-).
+
+**What you can change:**
+
+1. Shortcut to trigger the opener: `alt & left::`
+2. File paths to open: `Run("C:\Your\files\path")` — add or remove `Run()` lines as needed
+
+---
+
+**Example — Open Chrome and the Downloads folder with Alt + Space:**
+
 ```txt
 Alt & Space::
 {
@@ -245,15 +276,19 @@ Alt & Space::
 return
 ```
 
-- Full Code :
+---
+
+**Full default script:**
+
 ```txt
 Alt & Left::
 {
-    Run("C:\\path\\to\\your\\file1.txt") ; Made sure to change this with your file path
-    Run("C:\\path\\to\\your\\file2.txt") ; You can also copy and paste this line for more file like this
+    Run("C:\\path\\to\\your\\file1.txt") ; Replace with your actual file path
+    Run("C:\\path\\to\\your\\file2.txt") ; Copy and paste this line to add more files
     Run("C:\\path\\to\\your\\file3.txt")
 }
 return
 ```
+
 
 <Adsense />

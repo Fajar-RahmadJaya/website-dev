@@ -6,7 +6,7 @@ description: What is KeyTik.
 
 # Overview
 
-Welcome to KeyTik, **The All-in-One Automation Tool**, official website documentation. This documentation has migrated from KeyTik's GitHub README to increase readability and visual appeal.
+Welcome to KeyTik, **The All-in-One Automation Tools**, official website documentation. This documentation has migrated from KeyTik's GitHub README to increase readability and visual appeal.
 
 ## About KeyTik
 
