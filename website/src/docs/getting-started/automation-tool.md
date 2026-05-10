@@ -80,7 +80,7 @@ $e up:: ; Change to match the trigger key above
 }
 ```
 
----
+<Adsense />
 
 ## Screen Clicker
 
@@ -176,8 +176,6 @@ global
 }
 ```
 
----
-
 ## Screen Coordinate Auto Detect and Copy
 
 This script makes it easy to collect coordinates for use with the screen clicker. By default, pressing Space detects the cursor's current screen position, copies the coordinate to your clipboard, and briefly displays it as a tooltip near the cursor. Since the coordinate is copied automatically, you can paste it wherever you need it without writing anything down.
@@ -249,8 +247,6 @@ global
     return
 }
 ```
-
----
 
 ## Multiple Files Opener
 
