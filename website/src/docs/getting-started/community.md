@@ -5,10 +5,10 @@ description: Join KeyTik community.
 ---
 
 # Community
-Join KeyTik community.
+Join the KeyTik community!
 
 ## Have a Suggestion or Question?
-If you have any suggestions or question, don't hesitate to submit it on the issues page.
+If you have any suggestions or questions, don't hesitate to submit it on the issues page!
 - **[Automation Tool Suggestion](https://github.com/Fajar-RahmadJaya/KeyTik/issues/new?assignees=&labels=Automation+Tool+Suggestion%2C+Supported+Key+Suggestion&projects=&template=automation-tool-suggestion.md&title=Automation+Tool+Suggestion)**: Suggest additions to KeyTik’s built-in automation tools.
 - **[Bug Report](https://github.com/Fajar-RahmadJaya/KeyTik/issues/new?assignees=&labels=bug&projects=&template=bug-report.md&title=Bug+Report)**: Report any bugs or issue.
 - **[Feature Suggestion](https://github.com/Fajar-RahmadJaya/KeyTik/issues/new?assignees=&labels=Feature+Suggestion&projects=&template=feature_suggestion.md&title=Feature+Suggestion)**: Suggest an idea for a new feature.

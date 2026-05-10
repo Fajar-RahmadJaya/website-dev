@@ -7,15 +7,25 @@ description: Learn how KeyTik work.
 # KeyTik Mechanism
 
 ## Overall Mechanism
-For the automation tool executor, KeyTik use AutoHotkey. AutoHotkey is a powerful scripting language to do this task. Using AutoHotkey, allow keytik to do almost all automation task while still make it lightweight. For example, one AutoHotkey script size usually below 1MB and if We make the automation tool without AutoHotkey such as using python library then the size could be more than that. Another reason We use AutoHotkey is because how it work. Because it work in a single file and have different file for each script, allow KeyTik to assign feature to it such as run on startup or multiple profile.
-To be more simple, We use python for the functionality (create, edit, GUI, run, exit, store, delete, run on startup and more) and use AutoHotkey as executor for each profile. So it's basically an app to create AutoHotkey script based on user input and assign functionality to it. You can see the created script on (KeyTik\_internal\data\active). For example, suppose your input is like this:
 
-Example 1 (Without Shortcut):
+KeyTik uses AutoHotkey as its automation executor. AutoHotkey is a powerful scripting language ideally suited for this purpose — it handles virtually all automation tasks while keeping the overall footprint small. A typical AutoHotkey script is under 1MB, whereas building the same functionality with a Python library alone would result in a significantly larger package.
+
+AutoHotkey's single-file-per-script model is also a natural fit for KeyTik's feature set. Because each remap or automation profile lives in its own file, KeyTik can apply features to individual profiles independently — enabling things like per-profile startup behavior and multi-profile management.
+
+In short, KeyTik uses Python for the core application layer (the GUI, profile management, create/edit/run/delete/startup functions, and more) and AutoHotkey as the executor that actually runs each profile. The application takes your input, generates the appropriate AutoHotkey script, and manages it from there. The generated scripts can be found at `KeyTik_internal\data\active`.
+
+For example, given this input:
+
+**Example 1 — Without Shortcut:**
+
+<br>
 <p align="center">
   <img src="/docs/getting-started/mechanism/Example1.png" alt="Input Example 1" width="400" />
 </p>
+<br>
 
-Then the created script result would look like this:
+KeyTik generates the following script:
+
 ```txt
 ; default
 ^!p::ExitApp
@@ -26,12 +36,16 @@ s::Down
 d::Right
 ```
 
-Example 2 (With Shortcut):
+**Example 2 — With Shortcut:**
+
+<br>
 <p align="center">
   <img src="/docs/getting-started/mechanism/Example2.png" alt="Input Example 2" width="400" />
 </p>
+<br>
 
-Then the created script result would look like this:
+KeyTik generates the following script:
+
 ```txt
 ; default
 ^!p::ExitApp
@@ -53,19 +67,24 @@ s::Down
 
 <Adsense />
 
-## Assign Profile on Specific Device
-This feature work similar to [Remapper And Automation Tool] section with taking input from user then create AutoHotkey script from it. The difference is, KeyTik use help from AutoHotkey wrapper named [AutoHotkey Interception by evilC](https://github.com/evilC/AutoHotInterception) to be able to assign script or profile on specific device. AutoHotkey Interception work using [Interception driver by oblitum](https://github.com/oblitum/Interception) so to be able to make it work you need to install Interception driver first. For how to do it, visit [AutoHotkey Interception, Install the Interception driver](https://github.com/evilC/AutoHotInterception?tab=readme-ov-file#install-the-intereception-driver).
+## Assigning a Profile to a Specific Device
 
-To use this feature, you just need to select your device then click on "Select" Button, it will automatically take the device type, VID and PID/Handle then pass it to "Device ID" entry. After that, you can freely add your script or keyboard remap and finish it, then it's done. After setting up your device id and remap or script, you have a profile that work on specific device. If you are unsure which one is your device ID, you can use AutoHotkey Interception built in monitor with clicking "Open AHI Monitor To Test Device" button and it will automatically open monitor.ahk.
+This feature follows the same script generation process as standard remapping, with one key difference: KeyTik uses an AutoHotkey wrapper called [AutoHotkey Interception by evilC](https://github.com/evilC/AutoHotInterception) to target input from a specific physical device. AutoHotkey Interception relies on the [Interception driver by oblitum](https://github.com/oblitum/Interception), which must be installed before this feature can be used. Installation instructions are available at [AutoHotkey Interception — Install the Interception Driver](https://github.com/evilC/AutoHotInterception?tab=readme-ov-file#install-the-intereception-driver).
 
-For more simple explanation, to assign your remap or script to specific device, you just need to select your device in the "Select Device" button.
+To use this feature, select your device from the device list and click "Select." KeyTik will automatically detect the device type, VID, and PID/Handle and populate the "Device ID" field. From there, set up your remap or script as usual. The resulting profile will only activate for that specific device.
 
-Here is the example, suppose your input is like this:
+If you are not sure which device ID corresponds to your hardware, click "Open AHI Monitor To Test Device" to open the built-in AutoHotkey Interception monitor, which will show you input events from each connected device in real time.
+
+For example, given this input:
+
+<br>
 <p align="center">
   <img src="/docs/getting-started/mechanism/Example3.png" alt="Input Example 3" width="400" />
 </p>
+<br>
 
-Then the created script result would look like this:
+KeyTik generates the following script:
+
 ```txt
 ; default
 ^!p::ExitApp

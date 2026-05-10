@@ -4,56 +4,65 @@ titleTemplate: Introduction
 description: Example case to use KeyTik.
 ---
 
-# Use Case Example
+# Use Case Examples
 
-Here is example how you can use KeyTik and utilize each features.
+Below are some examples of how you can put KeyTik to practical use.
 
-## Advance Keyboard Remapping
-KeyTik not only able to remap just one key to another but also multiple remap format you can use. This can make you have more control over your keyboard or mouse. Normal keyboard and mouse sometimes is boring and not efficient to use. With KeyTik, you can made your keyboard or mouse more useful, unique and can behave as you like it.
+## Advanced Keyboard Remapping
 
-You can even make your own keyboard layout easily with KeyTik, that just how much powerful KeyTik is. This can be achieved with remapping every single key based on your layout. You can even made your layout not just pressing a key but also another command such as pressing shortcut or automation. Imagine having a special key on your keyboard that can do auto click. That would be cool right?
+KeyTik goes well beyond simple one-to-one key remapping. With support for multiple remap formats, you have fine-grained control over how your keyboard and mouse behave — remapping single keys, key combinations, shortcuts, text output, and even built-in automation tools like the auto clicker, screen clicker, and file opener.
 
-What remap KeyTik can do is single key, multiple key or shortcut, text, KeyTik built in automation tool (Auto clicker, screen clicker, multiple files opener, screen coordinate finder). Not only a single key, you can also use shortcut or key combination to simulate remap key. For example, pressing (Ctrl + 1) will press F1. You can use this if your keyboard doesn't has specific key and you want to make add it on your keyboard.
+This means you can build an entirely custom keyboard layout from scratch. Every key can be reassigned not just to another key, but to a shortcut, a block of text, or a full automation action. Imagine a dedicated key that triggers an auto clicker on demand — that's entirely possible with KeyTik.
 
-Remap key to text can be used when you have a repetitive text or sentence that you always use. For example greeting (Good morning, Thank you for coming and more) and you don't want to type it every single time. Then you can remap your key or use shortcut to automatically type it when you need to use the text.
+Text remapping is especially useful for repetitive phrases. If you find yourself typing the same greeting or boilerplate text over and over, you can assign it to a key and have it typed out instantly. You can also remap key combinations to fill in for keys your keyboard doesn't have — for example, mapping Ctrl + 1 to act as F1.
 
 <Adsense />
 
-## Utilize Second Keyboard
-If you have unused keyboard and it still working, why not use it to increase your productivity. Even more, you can buy mini keyboard for better comfort and tidiness. With the second keyboard, you can remap it's key to something else without affecting main keyboard. To do this, you just need to use assign profile on specific device features. Simply choose which one your keyboard ID and assign automation tool or remap to it. Here is what you can remap your second keyboard with:
+## Using a Second Keyboard
 
-- Automation Tool
-   - You can assign automation tool on your second keyboard whether using key combination or just a single key. For better use, we recommend using only one key for it. Imagine having a key that can do auto clicking, screen clicking, automatic files opening, automatic screen coordinate finding in just a single press. On top of that, KeyTik built in automation tool is highly customizable. This mean You can assign for more that 4 key with automation tool customization. For example, one key will opening required files for certain task and the other key will opening required files for another task. You can also do this this another automation tool.
-- Key Remap
-   - There are various key in the world. And your keyboard might be not have what key you need to use. In that case, you can remap your second keyboard key to your missing key.
-   - Another use case is to use remap your second key not only to another key but also a text. When you work on marketing side or similar, sometimes you have the same phrase used multiple time. This can take a lot of time to type. Of course you can also copy and paste it but obviously you need to copy it beforehand to paste the phrase. In that case, you can remap you second keyboard to type the phrase in a single key and single press. Of course it can be used in another task required to use the same phrase multiple time beside marketing.
-- Command remap
-   - There are various shortcut to simulate command out there. What we mean by command is like copy, paste, redo, undo etc. Pressing 2 key rapidly can make our finger sore. Then why don't remap a key to simulate this shortcut. This way, instead of pressing 2 key, we can just simply press a single key. This can also work for shortcut with more that 2 key press. Utilizing second keyboard is a way to go for this task. This way there is no key we sacrifice on main keyboard and use the key on second keyboard instead.
+If you have a spare keyboard lying around, KeyTik is a great way to put it to work. Rather than leaving it unused, you can dedicate it to automation and shortcuts without affecting your main keyboard's behavior at all. For a cleaner setup, a compact mini keyboard works particularly well for this purpose.
 
-## Open Programs or Files Automatically
-When we have work that require to open multiple files every time we work on it, sometimes it can be frustrating to open it one-by-one. But with KeyTik you can automate this task easily with various customization on how it will behave. You can use KeyTik built in multiple files opener to do this. Here is how you can customize it:
+To get started, use the "Bind Profile to Specific Device" feature to assign your second keyboard by its device ID. From there, you can remap any of its keys independently. Here are some ways to make use of it:
 
-- Using shortcuts to open the files or program.
-  - You can assign shortcut on the multiple files opener profiles then run the profiles on startup. This way, whenever you want to work and need to open the files or programs, you just need to press shortcut to do it. You can assign shortcut with a single key (Example: F1), key combination (Example: ctrl+1), or multiple key (Example: alt+ctrl+1+etc).
-- Open multiple files or program whenever device start.
-   - You can make multiple files or programs to automatically open whenever you open your device. This way, you can directly work on your assignment after opening your device. To do this, simply just don't assign any shortcut to multiple files opener profile, then run it on startup.
+- **Automation Tools**
+  Assign any of KeyTik's built-in automation tools — auto clicker, screen clicker, file opener, coordinate finder — to individual keys on the second keyboard. You can also customize these tools extensively and assign different tools to different keys. For example, one key could open the files needed for one project, and another key could open the files for a different project entirely.
 
-To customize this built in automation tool, you can check out [Automation tool, Multiple Files Opener Section](/docs/getting-started/automation-tool#multiple-files-opener)
+- **Key Remapping**
+  Use the second keyboard to add keys that your main keyboard is missing. You can also remap its keys to output frequently used text — handy for repetitive phrases in writing, marketing copy, customer support, or any other text-heavy workflow.
+
+- **Command Shortcuts**
+  Pressing multi-key shortcuts like Ctrl + Z or Ctrl + Shift + Alt + something repeatedly can be uncomfortable. Remapping those commands to a single key on your second keyboard eliminates that friction entirely, with no compromise to your main keyboard layout.
+
+## Opening Programs or Files Automatically
+
+When a task requires opening several files or applications every time you sit down to work, doing it manually can get tedious. KeyTik's built-in Multiple Files Opener lets you automate this entirely. There are two main approaches:
+
+- **Shortcut-based opening**
+  Assign a shortcut to a files opener profile and enable it on startup. Whenever you need to open your working set of files or programs, a single key press takes care of it. Shortcuts can be a single key (e.g. F1), a combination (e.g. Ctrl + 1), or a multi-key sequence.
+
+- **Open automatically on startup**
+  Skip the shortcut entirely and configure the profile to run on startup with no trigger key. Your files and applications will open automatically as soon as you log in — ready to go before you even reach your desk.
+
+For full customization details, see [Automation Tool — Multiple Files Opener](https://keytik.com/docs/getting-started/automation-tool#multiple-files-opener).
 
 ## Auto Clicker
-Auto clicker is an automation tool to press keys simultaneously. KeyTik also has a built-in auto clicker. Other auto clickers usually can only press left click, but with KeyTik you can press various keys and are not limited to only left click. On top of that, you can customize the auto clicker more, such as the interval between clicks and the key to activate it. KeyTik's auto clicker works when you hold the key and stops when you release it. This is also different from other auto clickers. Maybe in the future, we will also add an option to hold or just press to activate or stop the auto clicker.
 
-For more information about how to customize auto clicker, check out [Automation Tool, Auto Clicker](/docs/getting-started/automation-tool#auto-clicker)
+KeyTik includes a built-in auto clicker that works differently from most. Standard auto clickers are typically limited to left click, but KeyTik's auto clicker supports any key — including keyboard keys, not just mouse buttons. You can also configure the trigger key and the interval between clicks to suit your needs.
 
-**Note: Make sure to follow the rules and be responsible when using auto clicker, whether it's in game or others.**
+By default, the auto clicker activates while a key is held and stops when it is released. We may add a toggle-mode option in a future update.
+
+For customization details, see [Automation Tool — Auto Clicker](https://keytik.com/docs/getting-started/automation-tool#auto-clicker).
+
+**Note: Please use the auto clicker responsibly and in accordance with the rules of any game or platform you use it with.**
 
 ## Screen Clicker
-Similar to auto clicker, screen clicker is also a type of automation to auto click some keys. The difference is screen clicker doesn't just simulate clicks on the cursor. Instead, you can specify where to click the key. For example, some downloads sometimes have a bunch of redirects and waiting times. Using screen clicker, you can automate this process by specifying each download button coordinate and putting an interval between them if needed.
 
-Screen clicker can automate almost all clicking tasks you have. As long as what it needs is just clicking, screen clicker should be able to do the job. For now, KeyTik only has coordinate and interval customization. But we plan to include other customizations such as clicking on specific strings, images, intervals between each click, conditions for each click (Example: Do action 4 when action 3 is done, if action 3 fails, restart to action 2) for more control. But these additions are still in planning and may or may not be implemented according to conditions.
+The screen clicker takes the auto clicker concept further by clicking at specific coordinates on the screen rather than just wherever your cursor happens to be. This makes it useful for automating tasks where the target location on the screen is fixed or predictable — such as working through a series of download prompts, filling out repetitive forms, or interacting with on-screen elements on a set schedule.
 
-For more information about how to customize screen clicker, check out [Automation Tool, Screen Clicker](/docs/getting-started/automation-tool#screen-clicker)
+For each click in the sequence, you can define both the coordinates and the delay before the next click. We plan to add more advanced options in the future, such as targeting specific on-screen text or images, per-click interval control, and conditional logic (e.g. proceed to step 4 only if step 3 succeeded). These additions are still in the planning stage and may or may not be implemented.
 
-**Note: Make sure to follow the rules and be responsible when using screen clicker, whether it's in game or others.**
+For customization details, see [Automation Tool — Screen Clicker](https://keytik.com/docs/getting-started/automation-tool#screen-clicker).
+
+**Note: Please use the screen clicker responsibly and in accordance with the rules of any game or platform you use it with.**
 
 <Adsense />
