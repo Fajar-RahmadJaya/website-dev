@@ -18,7 +18,11 @@ For example, given this input:
 
 **Example 1 — Without Shortcut:**
 
-![Input Example 1](https://keytik.com/docs/getting-started/mechanism/Example1.png)
+<br>
+<p align="center">
+  <img src="/docs/getting-started/mechanism/Example1.png" alt="Input Example 1" width="400" />
+</p>
+<br>
 
 KeyTik generates the following script:
 
@@ -34,7 +38,11 @@ d::Right
 
 **Example 2 — With Shortcut:**
 
-![Input Example 2](https://keytik.com/docs/getting-started/mechanism/Example2.png)
+<br>
+<p align="center">
+  <img src="/docs/getting-started/mechanism/Example2.png" alt="Input Example 2" width="400" />
+</p>
+<br>
 
 KeyTik generates the following script:
 
@@ -57,6 +65,8 @@ s::Down
 #HotIf
 ```
 
+<Adsense />
+
 ## Assigning a Profile to a Specific Device
 
 This feature follows the same script generation process as standard remapping, with one key difference: KeyTik uses an AutoHotkey wrapper called [AutoHotkey Interception by evilC](https://github.com/evilC/AutoHotInterception) to target input from a specific physical device. AutoHotkey Interception relies on the [Interception driver by oblitum](https://github.com/oblitum/Interception), which must be installed before this feature can be used. Installation instructions are available at [AutoHotkey Interception — Install the Interception Driver](https://github.com/evilC/AutoHotInterception?tab=readme-ov-file#install-the-intereception-driver).
@@ -67,7 +77,11 @@ If you are not sure which device ID corresponds to your hardware, click "Open AH
 
 For example, given this input:
 
-![Input Example 3](https://keytik.com/docs/getting-started/mechanism/Example3.png)
+<br>
+<p align="center">
+  <img src="/docs/getting-started/mechanism/Example3.png" alt="Input Example 3" width="400" />
+</p>
+<br>
 
 KeyTik generates the following script:
 
