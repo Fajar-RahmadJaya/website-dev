@@ -14,7 +14,7 @@ import ProChangelog from "@theme/components/ProChangelog.vue";
 
 # KeyTik Pro
 
-KeyTik Pro is available at Gumroad at **$20 for lifetime purchase**.
+KeyTik Pro version is available at Gumroad at ~~$20~~ **$15 (Big Update Discount)** for **lifetime purchase**.
 
 Pro version has additional features compared to the normal version while not overwhelming it. Think of Pro version as a way to support the developer or as a more user-friendly version of the normal version.
 
