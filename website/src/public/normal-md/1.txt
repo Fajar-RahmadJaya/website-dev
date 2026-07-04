@@ -4,13 +4,14 @@ KeyTik Pro version is available at Gumroad at  ̶$̶2̶0̶  **$15 (Big Update Di
 
 ### KeyTik Pro v2.3.6 Changelog
 #### 🚀 Features
-**Pro Version**
+
+##### Pro Version
 - Add pro version launcher
 - Migrate always on top
 - Add spacing on some widget
 - Improve auto clicker ui
 
-**Normal Version**
+##### Normal Version
 - Add more widget to enable/disable
 - Add better running ahk scripts detection
 - Improve program initialization time
@@ -62,3 +63,63 @@ KeyTik Pro version is available at Gumroad at  ̶$̶2̶0̶  **$15 (Big Update Di
 - Changing mica effect doesn't need to restart
 - Allow setting card label without subheading
 - Allow mica effect applied on custom theme
+
+#### 🐛 Bug Fixes
+
+##### Pro Version
+- Remove device binding on write always on top
+- Partially fix pick location
+- Use disable/enable instead of visible
+- Set fix width on infinite radio
+- Return mouse position correctly
+- Set import path correctly
+
+##### Normal Version
+- Choose key filter not working
+- Correctly calling edit handle
+- Set parent window
+- Remap double click not working
+- Non Unicode key written as Unicode
+- Remap double click not working
+- Only one parsed remap added to widget
+- Double click parse don't have enough tuple
+- Inherit QObject for signal
+- Set parent on some window
+- Get key rows from remap row
+- Use scripts variable from main core
+- Pass main_core as instance to get signal
+- Add parent to dialog
+- Add correct parent window to file dialog
+- Add parent to import profile dialog
+- Initialize mouse listening once
+- Correctly pass parsed remap argument
+- Set window geometry centered to parent
+- Improve announcement initialization time
+- Enable button after announcement fetched
+- Center window to parent
+- Current page not reset
+- Permission error on change profile location
+- Rename win to windows in modifier key
+- Key lookup only search one word
+- Search key doesn't works
+- Search key not working
+- Add value check
+- Change combobox styling
+- Save style as is
+- Move qt-theme apply after qapplication
+- Don't return qt-theme when mica enabled
+- Change setalphaf to rgba directly
+- Combobox not set correctly on catppuccin
+- Set combobox height policy as expanding
+- Set accent properly
+- Accent messagebox showing hex
+- Accent combobox overflowing
+- Incorrect restart messagebox information
+- Don't disable installation button
+- Default theme dark doesn't show meesagebox
+- Specific mica condition need restart
+- Pass correct arguments
+- Fix code order
+- Pass tuple correctly
+- Remove unnecessary return
+- Correct ahk uninstall fallback path
