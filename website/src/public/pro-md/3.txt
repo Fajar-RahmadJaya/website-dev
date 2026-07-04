@@ -1,5 +1,13 @@
-### KeyTik Pro v4.3.6 Changelog
+### KeyTik Pro v2.3.6 Changelog
 #### 🚀 Features
+
+##### Pro Version
+- Add pro version launcher
+- Migrate always on top
+- Add spacing on some widget
+- Improve auto clicker ui
+
+##### Normal Version
 - Add more widget to enable/disable
 - Add better running ahk scripts detection
 - Improve program initialization time
@@ -54,6 +62,15 @@
 
 #### 🐛 Bug Fixes
 
+##### Pro Version
+- Remove device binding on write always on top
+- Partially fix pick location
+- Use disable/enable instead of visible
+- Set fix width on infinite radio
+- Return mouse position correctly
+- Set import path correctly
+
+##### Normal Version
 - Choose key filter not working
 - Correctly calling edit handle
 - Set parent window
