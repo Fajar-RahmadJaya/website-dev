@@ -72,8 +72,8 @@ function defaultSidebar(): DefaultTheme.SidebarItem[] {
           link: '/docs/getting-started/mechanism',
         },
         {
-          text: 'Community',
-          link: '/docs/getting-started/community',
+          text: 'Contributing',
+          link: '/docs/getting-started/contributing',
         },
       ],
     },
