@@ -9,24 +9,24 @@ description: KeyTik has a rich but not overwhelming features.
 
 | **No** | **Feature**                                         | **Description** |
 |--------|-----------------------------------------------------|-----------------|
-| 1      | **Multiple Remap/Macro Profiles**                  | Unlike most keyboard remappers, KeyTik supports multiple simultaneous remap profiles. There's no need to reconfigure your remaps every time you switch tasks — just create as many profiles as you need and activate or deactivate them at will. |
-| 2      | **Double Click Format**                  | Remap a double click to another key. Example: double-pressing left click sends a middle click. |
-| 3      | **Text Format**                  | Remap a key to output raw text. Example: pressing Shift + 1 types "Worcestershire Sauce". |
-| 4      | **Hold Format**                  | Remap a key to trigger a hold action. Example: scrolling the mouse wheel up holds left click for 10 seconds. |
-| 5      | **Multi Key Format**                  | Remap key combinations, not just single keys. Example: pressing Left Alt + V sends Shift + V.|
-| 6      | **Vast Keyboard and Mouse Key Support**                  | Supports a wide range of keyboard and mouse keys, including unusual ones. See [Key List JSON](https://github.com/Fajar-RahmadJaya/KeyTik/blob/main/src/_internal/Data/key_list.json) for the full list — approximately 115 keyboard and mouse-specific keys (Tab, Shift, etc.) are supported. |
-| 7      | **ASCII Character Support**                  | Supports remapping and sending ASCII characters. Around 94 ASCII characters are supported. |
-| 8      | **ANSI Character Support**                  | Supports sending ANSI characters. Around 122 ANSI characters are supported. |
-| 9      | **Unicode Support**                    | Supports sending Unicode characters. KeyTik organizes Unicode into blocks, with around 302 supported blocks containing approximately 159,000+ characters in total.|
-| 10      | **Virtual Keyboard Code Support**                  | Supports remapping and sending Virtual Keyboard (VK) codes — Windows-defined key identifiers. Around 258 VK codes are supported. |
-| 11      | **Scan Code Support**                  | Supports remapping keys by Scan Code (SC) — hardware-specific codes that identify a key by its physical location on the keyboard. Useful when a key cannot be identified by name. The number of supported scan codes depends on your keyboard. |
-| 12      | **Assign Shortcut on Profile**                  | Assign a shortcut to start or stop any profile. Supports Caps Lock On and Caps Lock Off states. Shortcut-based profile switching (similar to how Caps Lock or Num Lock works) is planned for a future update. |
-| 13      | **Bind Profile to Specific Keyboard and Mouse** | Restrict a remap or script profile to a specific physical input device, identified by its VID & PID or device handle.|
-| 14      | **Bind Profile to Specific Program** | Restrict a remap or script profile to a specific program or window class — for example, a particular Chrome tab or an entire application.|
-| 15      | **Auto Clicker**                   | A built-in auto clicker is included with KeyTik. By default, it simulates left click while 'E' is held. The click target, trigger key, and interval are all customizable.|
-| 16      | **Screen Clicker**                   | A built-in screen clicker is included with KeyTik. Rather than clicking at the cursor position, it clicks at specific screen coordinates that you define. Coordinate and interval settings are both customizable. A built-in coordinate finder tool is also included to make setup easier.|
-| 17      | **Screen Coordinate Auto Detect And Copy**                   | A built-in coordinate finder to assist with setting up the screen clicker. By default, pressing 'Space' detects the cursor's current screen position and copies it to the clipboard automatically. The trigger key is customizable.|
-| 18      | **Multiple Files Opener**                   | A built-in tool that opens one or more files or programs when a key or key combination is pressed. File paths are fully customizable.|
+| 1      | **Multi Profile Macro**                  | Not like most of keyboard remapper, KeyTik can handle multiple keyboard remap. You don't have to set remap again when you need to use another remap then set it back again after done. Just create multiple remap and activate or deactivate it whenever you want. |
+| 2      | **Double Click Format**                  | Remap double click into other keys. Example: Double pressing left click will send middle click. |
+| 3      | **Text Format**                  | Remap key into raw text. Example: Pressing Shift + 1 will send "Worcestershire Sauce". |
+| 4      | **Hold Format**                  | Remap key into a hold action. Example: Triggering mouse wheel up will hold left click for 10 seconds. |
+| 5      | **Multi Key Format**                  | Not just single keys, KeyTik supports remapping multiple keys too. This can be used for remapping or sending key. Example: Pressing Left Alt + v will send Shift + v.|
+| 6      | **Vast Keyboard and Mouse Key Support**                  | Supports a wide range of keyboard and mouse keys, even unusual ones. See [List of Available Key](https://keytik.com/docs/getting-started/key-list/keyboard) for more. There are around 115 keyboard and mouse specific keys (like Tab, Shift, etc). |
+| 7      | **ASCII Character Support**                  | Supports remapping and sending ASCII characters. There are around 94 ASCII characters are supported. |
+| 8      | **ANSI Character Support**                  | Supports sending ANSI characters. There are around 122 ANSI characters are supported. |
+| 9      | **Unicode Character Support**                  | Supports sending Unicode characters. Unicode contains a vast number of characters. KeyTik groups them using Unicode blocks, and each block consists of different characters. There are around 302 supported blocks, with approximately 159,000+ Unicode characters. |
+| 9      | **Virtual Keyboard Code Support**                  | Supports remapping and sending VK codes. Virtual keyboard codes (VK codes) are keys defined by Windows. There are around 258 VK codes are supported. |
+| 10      | **Scan Code Support**                  | Supports remapping keys via SC. Scan codes (SC) are hardware-specific codes that indicate key location. This is useful if you can't find your key. SC will remaps the key at a specific location instead of a specific key. The number of supported scan codes depends on your keyboard. |
+| 11      | **Assign Shortcut on Profile**                  | Assign shortcuts to start or stop profiles. Supports Caps Lock On and Caps Lock Off states. Currently, shortcuts only start or stop the profile. We plan to add shortcut switching in the future, so shortcuts can change the remap when pressed. This is similar to how Caps Lock or Num Lock works. |
+| 12      | **Bind Profile to Specific Keyboard and Mouse** | Make script or remap profile to only work for specific physical keyboard or mouse using device VID & PID or device handle as identifier.|
+| 13      | **Bind Profile to Specific Program** | Make script or remap profile to only work for specific programs class, like specific Chrome tab or entire program.|
+| 14      | **Auto Clicker**                   | KeyTik comes with Auto Clicker in the download. On default, it simulate 'left click' when 'e' is held. You can change the 'left click', 'e', interval part to your preference.|
+| 15      | **Screen Clicker**                   | KeyTik also comes with Screen Clicker in the download. It work with simulate 'left click' on specific screen coordinate. You can change coordinate and interval to your preference. Don't worry because KeyTik also comes with tool to find screen coordinate then it will automatically copy coordinate and you can paste it to screen clicker in text mode.|
+| 16      | **Screen Coordinate Auto Detect And Copy**                   | To make screen clicker editing easier, KeyTik also comes with coordinate finder. On default, you just need to press 'space' then it will show coordinate and automatically copy it. You can also change 'space' part to your preference.|
+| 17      | **Multiple Files Opener**                   | Multiple files opener also comes with KeyTik download. It work with, if you click key or key combination, then it will open the files. You can change the files with your files or programs path to your preference.|
 
 <Adsense />
 
@@ -34,11 +34,11 @@ description: KeyTik has a rich but not overwhelming features.
 
 | **No** | **Feature**                                         | **Description** |
 |--------|-----------------------------------------------------|-----------------|
-| 1      | **Manage Profiles** | Run, exit, delete, store, edit, and pin profiles for full control over your setup.|
-| 2      | **Run Profile on Startup**                         | Configure profiles to activate automatically when your device starts — no manual intervention needed. |
-| 3     | **Make Window Always on Top**                      | Keep the KeyTik window above all other windows while you work or game, so you can adjust remaps without minimizing anything. |
-| 4 | **Show Stored Profile** | View your stored profiles and restore them to the main window at any time. |
-| 5     | **Import Profile**                                 | Import an external AutoHotkey script and use it as a KeyTik profile. |
-| 6      | **Automatic Key Input Detection**                   | Click a button, press your desired key, and KeyTik will fill in the key entry field for you automatically.               |
+| 1      | **Manage Profiles** | Run, Exit, Delete, Store, Edit, Pin each profiles for better control over profiles.|
+| 2      | **Run Profile on Startup**                         | Run profiles on startup, so it will automatically activate when you open your device—no need to manually activate it each time. |
+| 3     | **Always on Top**                      | "Always on top" feature lets you easily remap keys while other windows are open, without minimizing KeyTik window. This is especially useful during gaming. |
+| 4| **Store Profile** | Show or hide your profile from main window. |
+| 5     | **Import Profile**                                 | Use AutoHotkey script from external source like download and make it as profile. |
+| 6      | **Custom Appearance**                   | Change KeyTik theme or style based on your preferences.                |
 
 <Adsense />
