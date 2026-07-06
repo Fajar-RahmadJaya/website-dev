@@ -36,9 +36,9 @@ description: KeyTik has a rich but not overwhelming features.
 |--------|-----------------------------------------------------|-----------------|
 | 1      | **Manage Profiles** | Run, exit, delete, store, edit, and pin profiles for full control over your setup.|
 | 2      | **Run Profile on Startup**                         | Configure profiles to activate automatically when your device starts — no manual intervention needed. |
-| 6     | **Make Window Always on Top**                      | Keep the KeyTik window above all other windows while you work or game, so you can adjust remaps without minimizing anything. |
-| 7| **Show Stored Profile** | View your stored profiles and restore them to the main window at any time. |
-| 8     | **Import Profile**                                 | Import an external AutoHotkey script and use it as a KeyTik profile. |
-| 9      | **Automatic Key Input Detection**                   | Click a button, press your desired key, and KeyTik will fill in the key entry field for you automatically.               |
+| 3     | **Make Window Always on Top**                      | Keep the KeyTik window above all other windows while you work or game, so you can adjust remaps without minimizing anything. |
+| 4 | **Show Stored Profile** | View your stored profiles and restore them to the main window at any time. |
+| 5     | **Import Profile**                                 | Import an external AutoHotkey script and use it as a KeyTik profile. |
+| 6      | **Automatic Key Input Detection**                   | Click a button, press your desired key, and KeyTik will fill in the key entry field for you automatically.               |
 
 <Adsense />
