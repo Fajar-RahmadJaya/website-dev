@@ -2,10 +2,12 @@
 
 ### New Features
 
+##### Normal Version
 - Add input auto complete
 
 ### Bug Fixes
 
+##### Normal Version
 - Selecting space doesn't stop key listening
 - Reset selected key when opening select key window
 - Set treeview header sort indicator to rightmost
@@ -18,6 +20,7 @@
 
 ### Improvements
 
+##### Normal Version
 - *(hold-format)* Disable hold format input when checkbox is unchecked
 - *(select-program)* Set indetation on select program tree view
 - *(profile-manager)* Remove button and combobox focus
