@@ -2,10 +2,12 @@
 
 #### New Features
 
+**Normal Version**
 - Add input auto complete
 
 #### Bug Fixes
 
+**Normal Version**
 - Selecting space doesn't stop key listening
 - Reset selected key when opening select key window
 - Set treeview header sort indicator to rightmost
@@ -18,6 +20,7 @@
 
 #### Improvements
 
+**Normal Version**
 - *(hold-format)* Disable hold format input when checkbox is unchecked
 - *(select-program)* Set indetation on select program tree view
 - *(profile-manager)* Remove button and combobox focus
@@ -26,13 +29,13 @@
 ### KeyTik Pro v2.3.6 Changelog
 #### 🚀 Features
 
-##### Pro Version
+**Pro Version**
 - Add pro version launcher
 - Migrate always on top
 - Add spacing on some widget
 - Improve auto clicker ui
 
-##### Normal Version
+**Normal Version**
 - Add more widget to enable/disable
 - Add better running ahk scripts detection
 - Improve program initialization time
@@ -87,7 +90,7 @@
 
 #### 🐛 Bug Fixes
 
-##### Pro Version
+**Pro Version**
 - Remove device binding on write always on top
 - Partially fix pick location
 - Use disable/enable instead of visible
@@ -95,7 +98,7 @@
 - Return mouse position correctly
 - Set import path correctly
 
-##### Normal Version
+**Normal Version**
 - Choose key filter not working
 - Correctly calling edit handle
 - Set parent window
