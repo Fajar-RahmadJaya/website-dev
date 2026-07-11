@@ -1,4 +1,4 @@
-### Have a Suggestion or Question?
+## Have a Suggestion or Question?
 
 
 We’d love to hear from you! Your feedback is essential for the continued improvement of KeyTik. If you have any suggestions or question, please submit it on the [KeyTik Issues page](https://github.com/Fajar-RahmadJaya/KeyTik/issues).

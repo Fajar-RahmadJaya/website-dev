@@ -6,12 +6,12 @@ KeyTik Pro version is available at Gumroad at  ̶$̶2̶0̶  **$15 (Big Update Di
 
 ### New Features
 
-##### Normal Version
+#### Normal Version
 - Add input auto complete
 
 ### Bug Fixes
 
-##### Normal Version
+#### Normal Version
 - Selecting space doesn't stop key listening
 - Reset selected key when opening select key window
 - Set treeview header sort indicator to rightmost
@@ -24,7 +24,7 @@ KeyTik Pro version is available at Gumroad at  ̶$̶2̶0̶  **$15 (Big Update Di
 
 ### Improvements
 
-##### Normal Version
+#### Normal Version
 - *(hold-format)* Disable hold format input when checkbox is unchecked
 - *(select-program)* Set indetation on select program tree view
 - *(profile-manager)* Remove button and combobox focus
@@ -151,4 +151,3 @@ KeyTik Pro version is available at Gumroad at  ̶$̶2̶0̶  **$15 (Big Update Di
 - Pass tuple correctly
 - Remove unnecessary return
 - Correct ahk uninstall fallback path
-

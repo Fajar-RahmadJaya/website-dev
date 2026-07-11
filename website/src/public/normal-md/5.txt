@@ -1,4 +1,4 @@
-### Useful Resources
+## Useful Resources
 
 1. [Full Documentation](https://keytik.com/docs/introduction/overview)
 2. [Installation](https://keytik.com/download/#installation)
