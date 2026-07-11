@@ -1,3 +1,28 @@
+## KeyTik Pro v2.3.7 Changelog
+
+### New Features
+
+- Add input auto complete
+
+### Bug Fixes
+
+- Selecting space doesn't stop key listening
+- Reset selected key when opening select key window
+- Set treeview header sort indicator to rightmost
+- Show message if profile name is empty on save changed
+- Set missing parent on some messagebox
+- Stop save changes if shortcut is not valid
+- Insert chosen shortcut key in correct entry
+- Fix text mode save changes error
+- Allow text mode to use the entire scroll view
+
+### Improvements
+
+- *(hold-format)* Disable hold format input when checkbox is unchecked
+- *(select-program)* Set indetation on select program tree view
+- *(profile-manager)* Remove button and combobox focus
+- *(text-mode)* Add line number on text mode
+
 ### KeyTik Pro v2.3.6 Changelog
 #### 🚀 Features
 
