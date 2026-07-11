@@ -1,10 +1,10 @@
-## KeyTik Pro v2.3.7 Changelog
+### KeyTik Pro v2.3.7 Changelog
 
-### New Features
+#### New Features
 
 - Add input auto complete
 
-### Bug Fixes
+#### Bug Fixes
 
 - Selecting space doesn't stop key listening
 - Reset selected key when opening select key window
@@ -16,7 +16,7 @@
 - Fix text mode save changes error
 - Allow text mode to use the entire scroll view
 
-### Improvements
+#### Improvements
 
 - *(hold-format)* Disable hold format input when checkbox is unchecked
 - *(select-program)* Set indetation on select program tree view
