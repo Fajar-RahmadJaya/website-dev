@@ -6,7 +6,7 @@ const contentHtml = ref<string | null>(null)
 
 onMounted(async () => {
   try {
-    const res = await fetch('/pro-md/3.txt')
+    const res = await fetch('/pro-md/changelog.txt')
     if (!res.ok) {
       throw new Error('Failed to fetch pro changelog')
     }
