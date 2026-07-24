@@ -1,0 +1,149 @@
+## KeyTik Pro v2.3.7 Changelog
+
+### New Features
+
+#### Normal Version
+- Add input auto complete
+
+### Bug Fixes
+
+#### Normal Version
+- Selecting space doesn't stop key listening
+- Reset selected key when opening select key window
+- Set treeview header sort indicator to rightmost
+- Show message if profile name is empty on save changed
+- Set missing parent on some messagebox
+- Stop save changes if shortcut is not valid
+- Insert chosen shortcut key in correct entry
+- Fix text mode save changes error
+- Allow text mode to use the entire scroll view
+
+### Improvements
+
+#### Normal Version
+- *(hold-format)* Disable hold format input when checkbox is unchecked
+- *(select-program)* Set indetation on select program tree view
+- *(profile-manager)* Remove button and combobox focus
+- *(text-mode)* Add line number on text mode
+
+## KeyTik Pro v2.3.6 Changelog
+### 🚀 Features
+
+#### Pro Version
+- Add pro version launcher
+- Migrate always on top
+- Add spacing on some widget
+- Improve auto clicker ui
+
+#### Normal Version
+- Add more widget to enable/disable
+- Add better running ahk scripts detection
+- Improve program initialization time
+- Resize window
+- Resize ui
+- Set up layout on profile button
+- Resize dashboard ui
+- Add apply mica style utility
+- Resize remap row widget
+- Resize shortcut row widget
+- Enable unicode search only on remap key
+- Add styling for profile card
+- Improve setting ui
+- Change theme directly without button
+- Show current profile location on setting
+- Add program style setting
+- Add default on style setting
+- Add header on setting
+- Add check installation directly on setting
+- Add mica effect
+- Add alt mica effect
+- Add qt-themes on theme
+- Add dynamic color on icons
+- Apply qt-themes on styling
+- Add highlighted button style
+- Use qt-themes as accent when mica enabled
+- Set inverted color on highlighted icon
+- Apply highlighted button
+- Highlight create new profile button
+- Adjust palatte
+- Add button styles based on windows11
+- Allow apply_palette to read from file
+- Add theme from qtct .conf file
+- Add catppuccin qtct theme
+- Add setting to specified accent color
+- Add catppuccin on accent
+- Add catppuccin custom theme config
+- Add custom theme
+- Add custom theme
+- Apply default theme based on base color
+- Add circle showing accent color
+- Add dracula theme
+- Set default mauve accent on catppuccin theme
+- Add dracula accent
+- Add solarized light theme
+- Partially change theme directly
+- Changing accent doesn't need to restart
+- Add more theme
+- Changing mica effect doesn't need to restart
+- Allow setting card label without subheading
+- Allow mica effect applied on custom theme
+
+### 🐛 Bug Fixes
+
+#### Pro Version
+- Remove device binding on write always on top
+- Partially fix pick location
+- Use disable/enable instead of visible
+- Set fix width on infinite radio
+- Return mouse position correctly
+- Set import path correctly
+
+#### Normal Version
+- Choose key filter not working
+- Correctly calling edit handle
+- Set parent window
+- Remap double click not working
+- Non Unicode key written as Unicode
+- Remap double click not working
+- Only one parsed remap added to widget
+- Double click parse don't have enough tuple
+- Inherit QObject for signal
+- Set parent on some window
+- Get key rows from remap row
+- Use scripts variable from main core
+- Pass main_core as instance to get signal
+- Add parent to dialog
+- Add correct parent window to file dialog
+- Add parent to import profile dialog
+- Initialize mouse listening once
+- Correctly pass parsed remap argument
+- Set window geometry centered to parent
+- Improve announcement initialization time
+- Enable button after announcement fetched
+- Center window to parent
+- Current page not reset
+- Permission error on change profile location
+- Rename win to windows in modifier key
+- Key lookup only search one word
+- Search key doesn't works
+- Search key not working
+- Add value check
+- Change combobox styling
+- Save style as is
+- Move qt-theme apply after qapplication
+- Don't return qt-theme when mica enabled
+- Change setalphaf to rgba directly
+- Combobox not set correctly on catppuccin
+- Set combobox height policy as expanding
+- Set accent properly
+- Accent messagebox showing hex
+- Accent combobox overflowing
+- Incorrect restart messagebox information
+- Don't disable installation button
+- Default theme dark doesn't show meesagebox
+- Specific mica condition need restart
+- Pass correct arguments
+- Fix code order
+- Pass tuple correctly
+- Remove unnecessary return
+- Correct ahk uninstall fallback path
