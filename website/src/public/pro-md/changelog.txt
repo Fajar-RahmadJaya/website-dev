@@ -1,4 +1,4 @@
-## KeyTik Pro v2.3.7 Changelog
+## v2.3.7
 
 ### New Features
 
